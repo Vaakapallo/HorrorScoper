@@ -20,7 +20,6 @@ public class Main {
      */
     public static void main(String[] args) throws TwitterException, IOException {
         System.out.println("KUKKUUU");
-        new ChillTweet().start();
     }
     
 }
