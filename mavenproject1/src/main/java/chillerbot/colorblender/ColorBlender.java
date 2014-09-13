@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package chillerbot.colorblender;
 
 import java.awt.Color;
@@ -13,11 +12,29 @@ import java.awt.Color;
  * @author Lassi
  */
 public class ColorBlender {
-    
-    
-    public int RGBDistance(Color first, Color second){        
+
+    public int[] RGBDistance(Color first, Color second) {
+        int[] RGB = new int[3];
+        RGB[0] = (first.getRed() - second.getRed());
+        RGB[1] = (first.getGreen() - second.getGreen());
+        RGB[2] = (first.getBlue() - second.getBlue());
+      
+        return RGB;
+    }
+
+    public String distanceAsText(Color first, Color second){
+        String returnable = "";
+        int [] differences = RGBDistance(first, second);
         
-        return first.getRGB() - second.getRGB();
+        returnable += "Distances:\n" + "Red: " + differences[0] + "\nGreen: " + differences[1] + "\nBlue: " + differences[2] + "\n";
+        
+        return returnable;
     }
     
+    public Color calculateMiddle(Color first, Color second){
+        int[] differences = RGBDistance(first, second);
+        Color color = new Color(first.getRed()-differences[0]/2, first.getGreen()-differences[1]/2, first.getBlue()-differences[2]/2);
+        
+        return color;
+    }
 }
