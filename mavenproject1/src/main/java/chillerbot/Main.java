@@ -31,6 +31,8 @@ public class Main {
         
         System.out.println("Blend of " + Color.red +  " and " +  Color.blue + ":\n " +  blender.calculateMiddle(Color.red, Color.blue));
         System.out.println("Blend of " + Color.gray +  " and " +  Color.blue + ":\n " +  blender.calculateMiddle(Color.gray, Color.blue));
+        
+        //new ChillTweet().start();
     }
     
 }
