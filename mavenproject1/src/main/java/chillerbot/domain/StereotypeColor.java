@@ -39,10 +39,13 @@ public class StereotypeColor {
     public Color getColor() {
         return color;
     }
+    
+    public String stereotypeName(){
+        return stereotype + " " + colorName;
+    }
 
     @Override
     public String toString() {
         return Integer.toHexString(hex) + ": " + stereotype + " " + colorName;
     }
-    
 }

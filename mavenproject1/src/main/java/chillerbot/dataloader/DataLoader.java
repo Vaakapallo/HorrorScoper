@@ -7,9 +7,11 @@
 package chillerbot.dataloader;
 
 import chillerbot.domain.StereotypeColor;
+import java.awt.Color;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -46,5 +48,14 @@ public class DataLoader {
     public void loadWordPairs(String URL){
         
     }
+
+    public Color randomColor() {
+        Random random = new Random();
+        return colors.get(random.nextInt(colors.size())).getColor();
+    }
     
+    public StereotypeColor randomStereotypeColor() {
+        Random random = new Random();
+        return colors.get(random.nextInt(colors.size()));
+    }
 }

@@ -5,6 +5,7 @@
  */
 package chillerbot.colorblender;
 
+import chillerbot.domain.StereotypeColor;
 import java.awt.Color;
 
 /**
@@ -47,7 +48,12 @@ public class ColorBlender {
     public double percentageDistance(Color first, Color second){
         int absoluteRGB = absoluteRGBDistance(first, second);
         
-        return (absoluteRGB/MAX_COLOR_DISTANCE);
+        return 1 - (absoluteRGB/MAX_COLOR_DISTANCE);
+    }
+
+    public void mix(Color target, StereotypeColor first, StereotypeColor second) {
+        System.out.println(percentageDistance(target,first.getColor()) + " " + first.stereotypeName());
+        System.out.println(percentageDistance(target,second.getColor()) + " " + second.stereotypeName());
     }
             
 }

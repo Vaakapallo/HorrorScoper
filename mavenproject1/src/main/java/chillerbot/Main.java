@@ -29,7 +29,6 @@ public class Main {
         System.out.println("Difference between blue and gray:" + blender.distanceAsText(Color.blue, Color.gray));
         System.out.println("Difference between gray and gray:" + blender.distanceAsText(Color.gray, Color.gray));
 
-        
         System.out.println("Blend of " + Color.red +  " and " +  Color.blue + ":\n " +  blender.calculateMiddle(Color.red, Color.blue));
         System.out.println("Blend of " + Color.gray +  " and " +  Color.blue + ":\n " +  blender.calculateMiddle(Color.gray, Color.blue));
     
@@ -39,8 +38,13 @@ public class Main {
         DataLoader loader = new DataLoader();
         
         loader.loadColors("colormap.txt");
+                
+        loader.randomStereotypeColor();
         
-        loader.printColors();
+        System.out.println("The color red is:");
+        for (int i = 0; i < 5; i++) {
+            blender.mix(Color.red,loader.randomStereotypeColor(),loader.randomStereotypeColor());  
+        }
 
         //new ChillTweet().start();
     }
