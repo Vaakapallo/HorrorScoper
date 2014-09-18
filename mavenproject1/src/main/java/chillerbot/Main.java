@@ -7,6 +7,7 @@
 package chillerbot;
 
 import chillerbot.colorblender.ColorBlender;
+import chillerbot.dataloader.DataLoader;
 import java.awt.Color;
 import java.io.IOException;
 import java.util.Arrays;
@@ -31,7 +32,16 @@ public class Main {
         
         System.out.println("Blend of " + Color.red +  " and " +  Color.blue + ":\n " +  blender.calculateMiddle(Color.red, Color.blue));
         System.out.println("Blend of " + Color.gray +  " and " +  Color.blue + ":\n " +  blender.calculateMiddle(Color.gray, Color.blue));
+    
+        System.out.println("Percentage distance of " + Color.gray +  " and " +  Color.blue + ":\n " +  blender.percentageDistance(Color.gray, Color.blue));
+        System.out.println("Percentage distance of " + Color.black +  " and " +  Color.white + ":\n " +  blender.percentageDistance(Color.black, Color.white));
         
+        DataLoader loader = new DataLoader();
+        
+        loader.loadColors("colormap.txt");
+        
+        loader.printColors();
+
         //new ChillTweet().start();
     }
     

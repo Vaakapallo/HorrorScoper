@@ -12,6 +12,8 @@ import java.awt.Color;
  * @author Lassi
  */
 public class ColorBlender {
+    
+    public static final double MAX_COLOR_DISTANCE = 765.0;
 
     public int[] RGBDistance(Color first, Color second) {
         int[] RGB = new int[3];
@@ -20,6 +22,10 @@ public class ColorBlender {
         RGB[2] = (first.getBlue() - second.getBlue());
       
         return RGB;
+    }
+    
+    public int absoluteRGBDistance(Color first, Color second) {
+        return Math.abs(first.getRed() - second.getRed()) + Math.abs(first.getGreen() - second.getGreen()) + Math.abs(first.getBlue() - second.getBlue());
     }
 
     public String distanceAsText(Color first, Color second){
@@ -37,4 +43,11 @@ public class ColorBlender {
         
         return color;
     }
+    
+    public double percentageDistance(Color first, Color second){
+        int absoluteRGB = absoluteRGBDistance(first, second);
+        
+        return (absoluteRGB/MAX_COLOR_DISTANCE);
+    }
+            
 }
