@@ -11,6 +11,7 @@ import java.awt.Color;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -20,7 +21,8 @@ import java.util.Scanner;
  */
 public class DataLoader {
     
-    ArrayList<StereotypeColor> colors = new ArrayList();
+    HashMap<Integer,StereotypeColor> colors = new HashMap();
+    ArrayList<Integer> keys = new ArrayList();
     
     public void loadColors(String path){
         Scanner fileReader = null;
@@ -35,12 +37,13 @@ public class DataLoader {
             String stereotype = fileReader.next();
             String name = fileReader.next();
             int hex = Integer.parseInt(fileReader.next().substring(1), 16);
-            colors.add(new StereotypeColor(stereotype, name, hex));
+            keys.add(hex);
+            colors.put(hex,new StereotypeColor(stereotype, name, hex));
         }
     }
     
     public void printColors(){
-        for (StereotypeColor color : colors) {
+        for (StereotypeColor color : colors.values()) {
             System.out.println(color);
         }
     }
@@ -48,14 +51,9 @@ public class DataLoader {
     public void loadWordPairs(String URL){
         
     }
-
-    public Color randomColor() {
-        Random random = new Random();
-        return colors.get(random.nextInt(colors.size())).getColor();
-    }
     
     public StereotypeColor randomStereotypeColor() {
         Random random = new Random();
-        return colors.get(random.nextInt(colors.size()));
+        return colors.get(keys.get(random.nextInt(keys.size())));
     }
 }

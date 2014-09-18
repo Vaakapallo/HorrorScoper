@@ -14,14 +14,18 @@ import java.awt.Color;
 public class StereotypeColor {
     private final String stereotype;
     private final String colorName;
-    private final int hex;
     private final Color color;
 
     public StereotypeColor(String stereotype, String colorName, int hex) {
         this.stereotype = stereotype;
         this.colorName = colorName;
-        this.hex = hex;
         this.color = new Color(hex);
+    }
+    
+    public StereotypeColor(String stereotype, String colorName, int red,int green,int blue){
+        this.stereotype = stereotype;
+        this.colorName = colorName;
+        this.color = new Color(red,green,blue); 
     }
 
     public String getStereotype() {
@@ -30,10 +34,6 @@ public class StereotypeColor {
 
     public String getColorName() {
         return colorName;
-    }
-
-    public int getHex() {
-        return hex;
     }
 
     public Color getColor() {
@@ -46,6 +46,6 @@ public class StereotypeColor {
 
     @Override
     public String toString() {
-        return Integer.toHexString(hex) + ": " + stereotype + " " + colorName;
+        return Integer.toHexString(color.getRGB()) + ": " + stereotype + " " + colorName;
     }
 }
