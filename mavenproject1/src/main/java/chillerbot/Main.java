@@ -38,6 +38,9 @@ public class Main {
         DataLoader loader = new DataLoader();
 
         loader.loadColors("colormap.txt");
+        loader.loadWordPairs("bigrams.txt");
+        
+        loader.printWordPairs();
 
         loader.randomStereotypeColor();
 
