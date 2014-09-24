@@ -6,6 +6,7 @@
 package chillerbot;
 
 import chillerbot.colorblender.ColorBlender;
+import chillerbot.colorblender.WordToColor;
 import chillerbot.dataloader.DataLoader;
 import chillerbot.domain.StereotypeColor;
 import java.awt.Color;
@@ -40,32 +41,12 @@ public class Main {
         loader.loadColors("colormap.txt");
         loader.loadWordPairs("bigrams.txt");
         
-        loader.printWordPairs();
+                
+        WordToColor mapper = new WordToColor(loader.getColors(), loader.getWordPairs());
+        
+        mapper.findColorsForWords();
 
-        loader.randomStereotypeColor();
-
-        System.out.println("The color red is:");
-        for (int i = 0; i < 5; i++) {
-            blender.mix(Color.red, loader.randomStereotypeColor(), loader.randomStereotypeColor());
-        }
-
-        StereotypeColor one = loader.randomStereotypeColor();
-        StereotypeColor two = loader.randomStereotypeColor();
-
-        StereotypeColor mix = blender.blend(one, two, 0.5);
-        StereotypeColor mix2 = blender.blend(two, one, 0.5);
-
-        System.out.println(one);
-        System.out.println(two);
-        System.out.println(mix);
-        System.out.println(mix2);
-
-        System.out.println("Similarity of " + one.stereotypeName() + " and " + mix.stereotypeName() + " is " + blender.percentageSimilarity(one, mix));
-        System.out.println("Similarity of " + two.stereotypeName() + " and " + mix.stereotypeName() + " is " + blender.percentageSimilarity(two, mix));
-
-        System.out.println("Similarity of " + one.stereotypeName() + " and " + mix2.stereotypeName() + " is " + blender.percentageSimilarity(one, mix2));
-        System.out.println("Similarity of " + two.stereotypeName() + " and " + mix2.stereotypeName() + " is " + blender.percentageSimilarity(two, mix2));
-
+        mapper.printPairsToColors();
         //new ChillTweet().start();
     }
 

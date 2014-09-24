@@ -12,9 +12,9 @@ import java.awt.Color;
  * @author Lassi
  */
 public class StereotypeColor {
-    private final String stereotype;
-    private final String colorName;
-    private final Color color;
+    private String stereotype;
+    private String colorName;
+    private Color color;
 
     public StereotypeColor(String stereotype, String colorName, int hex) {
         this.stereotype = stereotype;

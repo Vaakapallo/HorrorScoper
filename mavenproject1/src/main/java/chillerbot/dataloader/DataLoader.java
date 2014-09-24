@@ -21,30 +21,22 @@ import java.util.Scanner;
  */
 public class DataLoader {
 
-    private HashMap<Integer, StereotypeColor> colors = new HashMap();
-    private ArrayList<Integer> keys = new ArrayList();
+    private HashMap<StereotypeColor, Integer> colors = new HashMap();
     private HashSet<WordPair> wordPairs = new HashSet();
 
     public void loadColors(String path) {
-        Scanner fileReader = null;
-        try {
-            File file = new File(path);
-            fileReader = new Scanner(file);
-        } catch (FileNotFoundException ex) {
-            System.out.println("Invalid file path.");
-            return;
-        }
+        Scanner fileReader = createScanner(path);
         while (fileReader.hasNext()) {
             String stereotype = fileReader.next();
             String name = fileReader.next();
             int hex = Integer.parseInt(fileReader.next().substring(1), 16);
-            keys.add(hex);
-            colors.put(hex, new StereotypeColor(stereotype, name, hex));
+            colors.put(new StereotypeColor(stereotype, name, hex),hex);
         }
+
     }
 
     public void printColors() {
-        for (StereotypeColor color : colors.values()) {
+        for (StereotypeColor color : colors.keySet()) {
             System.out.println(color);
         }
     }
@@ -56,14 +48,7 @@ public class DataLoader {
     }
 
     public void loadWordPairs(String URL) {
-        Scanner fileReader = null;
-        try {
-            File file = new File(URL);
-            fileReader = new Scanner(file);
-        } catch (FileNotFoundException ex) {
-            System.out.println("Invalid file path.");
-            return;
-        }
+        Scanner fileReader = createScanner(URL);
         while (fileReader.hasNext()) {
             fileReader.next();
             String first = fileReader.next();
@@ -75,8 +60,23 @@ public class DataLoader {
         }
     }
 
-    public StereotypeColor randomStereotypeColor() {
-        Random random = new Random();
-        return colors.get(keys.get(random.nextInt(keys.size())));
+    private Scanner createScanner(String URL) {
+        Scanner fileReader = null;
+        try {
+            File file = new File(URL);
+            fileReader = new Scanner(file);
+        } catch (FileNotFoundException ex) {
+            System.out.println("Invalid file path.");
+        }
+        return fileReader;
     }
+    
+    public HashMap<StereotypeColor, Integer> getColors() {
+        return colors;
+    }
+
+    public HashSet<WordPair> getWordPairs() {
+        return wordPairs;
+    }
+    
 }
