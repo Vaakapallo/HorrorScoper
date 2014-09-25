@@ -42,14 +42,14 @@ public class WordToColor {
             }
             result = blender.blend(first, second, 0.75);
             successes++;
-            //pairsToColors.put(wordPair, result);
+            pairsToColors.put(wordPair, result);
         }
         System.out.println("Nullcounter: " + nullCounter + " successes: " + successes);
     }
     
     public void printPairsToColors(){
         for (WordPair wordPair : pairsToColors.keySet()) {
-            System.out.print(wordPair.toString() + " is " + pairsToColors.toString());
+            System.out.println(wordPair.toString() + " is " + pairsToColors.get(wordPair).getColor());
         }
     }
     

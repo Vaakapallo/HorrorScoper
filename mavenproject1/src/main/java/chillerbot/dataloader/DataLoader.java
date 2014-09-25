@@ -59,6 +59,16 @@ public class DataLoader {
             wordPairs.add(pair);
         }
     }
+    
+    public void loadCustomWordPairs(String url){
+        Scanner fileReader = createScanner(url);
+        while (fileReader.hasNext()) {
+            String first = fileReader.next();
+            String second = fileReader.next();
+            WordPair pair = new WordPair(first, second);
+            wordPairs.add(pair);
+        }
+    }
 
     private Scanner createScanner(String URL) {
         Scanner fileReader = null;

@@ -40,7 +40,7 @@ public class Main {
 
         loader.loadColors("colormap.txt");
         loader.loadWordPairs("bigrams.txt");
-        
+        loader.loadCustomWordPairs("horrorgrams.txt");
                 
         WordToColor mapper = new WordToColor(loader.getColors(), loader.getWordPairs());
         
