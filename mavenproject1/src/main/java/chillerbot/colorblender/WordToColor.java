@@ -5,10 +5,8 @@
  */
 package chillerbot.colorblender;
 
-import chillerbot.dataloader.DataLoader;
 import chillerbot.domain.StereotypeColor;
 import chillerbot.domain.WordPair;
-import java.awt.Color;
 import java.util.HashMap;
 import java.util.HashSet;
 
@@ -18,7 +16,7 @@ import java.util.HashSet;
  */
 public class WordToColor {
     
-    private HashMap<WordPair,StereotypeColor> pairsToColors = new HashMap();
+    private HashMap<StereotypeColor, WordPair> colorsToPairs = new HashMap();
     private HashMap<StereotypeColor, Integer> colors;
     private HashSet<WordPair> wordPairs;
     private ColorBlender blender = new ColorBlender();
@@ -42,14 +40,14 @@ public class WordToColor {
             }
             result = blender.blend(first, second, 0.75);
             successes++;
-            pairsToColors.put(wordPair, result);
+            colorsToPairs.put(result, wordPair);
         }
         System.out.println("Nullcounter: " + nullCounter + " successes: " + successes);
     }
     
     public void printPairsToColors(){
-        for (WordPair wordPair : pairsToColors.keySet()) {
-            System.out.println(wordPair.toString() + " is " + pairsToColors.get(wordPair).getColor());
+        for (StereotypeColor stColor : colorsToPairs.keySet()) {
+            System.out.println(colorsToPairs.get(stColor).toString() + " is " + stColor.getColor());
         }
     }
     
@@ -62,4 +60,9 @@ public class WordToColor {
         }
         return rightColor;
     }
+
+    public HashMap<StereotypeColor, WordPair> getColorsToPairs() {
+        return colorsToPairs;
+    }
+    
 }

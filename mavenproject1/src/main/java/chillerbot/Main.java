@@ -6,12 +6,15 @@
 package chillerbot;
 
 import chillerbot.colorblender.ColorBlender;
+import chillerbot.colorblender.ColorToWord;
 import chillerbot.colorblender.WordToColor;
 import chillerbot.dataloader.DataLoader;
+import chillerbot.domain.Randomizer;
 import chillerbot.domain.StereotypeColor;
 import java.awt.Color;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.HashMap;
 import twitter4j.TwitterException;
 
 /**
@@ -41,12 +44,28 @@ public class Main {
         loader.loadColors("colormap.txt");
         loader.loadWordPairs("bigrams.txt");
         loader.loadCustomWordPairs("horrorgrams.txt");
+        loader.loadLinks("links.txt");
                 
         WordToColor mapper = new WordToColor(loader.getColors(), loader.getWordPairs());
         
         mapper.findColorsForWords();
 
         mapper.printPairsToColors();
+        
+        HashMap<Color, String> colors = loader.getColorsToLinks();
+        
+        for (Color color : colors.keySet()) {
+            //System.out.println(color + colors.get(color));
+        }
+        
+        ColorToWord convert = new ColorToWord(mapper.getColorsToPairs(), colors);
+        
+        for (int i = 0; i < 50; i++) {
+           System.out.println(convert.nameAndLinkForColor(Randomizer.randomColor())); 
+        }
+        
+        
+        
         //new ChillTweet().start();
     }
 

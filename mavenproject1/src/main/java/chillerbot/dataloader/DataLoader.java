@@ -5,14 +5,13 @@
  */
 package chillerbot.dataloader;
 
-import chillerbot.domain.WordPair;
 import chillerbot.domain.StereotypeColor;
+import chillerbot.domain.WordPair;
+import java.awt.Color;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -23,6 +22,7 @@ public class DataLoader {
 
     private HashMap<StereotypeColor, Integer> colors = new HashMap();
     private HashSet<WordPair> wordPairs = new HashSet();
+    private HashMap<Color, String> colorsToLinks = new HashMap();
 
     public void loadColors(String path) {
         Scanner fileReader = createScanner(path);
@@ -32,7 +32,6 @@ public class DataLoader {
             int hex = Integer.parseInt(fileReader.next().substring(1), 16);
             colors.put(new StereotypeColor(stereotype, name, hex),hex);
         }
-
     }
 
     public void printColors() {
@@ -69,6 +68,15 @@ public class DataLoader {
             wordPairs.add(pair);
         }
     }
+    
+    public void loadLinks(String url){
+        Scanner fileReader = createScanner(url);
+        while (fileReader.hasNext()) {
+            int hex = Integer.parseInt(fileReader.next().substring(1), 16);
+            String link = fileReader.next();
+            colorsToLinks.put(new Color(hex), link);
+        }
+    }
 
     private Scanner createScanner(String URL) {
         Scanner fileReader = null;
@@ -88,5 +96,8 @@ public class DataLoader {
     public HashSet<WordPair> getWordPairs() {
         return wordPairs;
     }
-    
+
+    public HashMap<Color, String> getColorsToLinks() {
+        return colorsToLinks;
+    }
 }
