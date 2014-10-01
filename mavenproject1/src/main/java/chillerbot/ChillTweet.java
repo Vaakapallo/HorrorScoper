@@ -9,6 +9,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Random;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -25,7 +26,7 @@ public class ChillTweet {
     private String ACCESS_TOKEN;
     private String ACCESS_TOKEN_SECRET;
 
-    public void start() throws TwitterException, IOException {
+    public void tweet(String tweet) throws TwitterException, IOException {
 
         Twitter twitter = new TwitterFactory().getInstance();
         if (loadKeys()) {
@@ -36,7 +37,7 @@ public class ChillTweet {
 
             twitter.setOAuthAccessToken(oathAccessToken);
 
-            twitter.updateStatus("Hi, I'm a bot and I'll be coming up with spooooky color names!");
+            twitter.updateStatus(tweet + randomScaryThing());
 
             System.out.println("\nMy Timeline:");
 
@@ -69,6 +70,20 @@ public class ChillTweet {
             return true;
         }
         return false;
+    }
+    
+    private String randomScaryThing(){
+        String[] scaryCreatures = {"Werewolf", "Vampire", "Zombie", "Murderer", "Killer", "Swamp Monster"};
+        
+        String string = "And there's a ";
+        
+        Random random = new Random();
+        
+        string += scaryCreatures[random.nextInt(scaryCreatures.length)];
+        
+        string += " behind you!";
+        
+        return string;
     }
 
 }

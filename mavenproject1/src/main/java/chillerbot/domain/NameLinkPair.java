@@ -50,7 +50,7 @@ public class NameLinkPair {
 
     @Override
     public String toString() {
-        return name + ": " + link;
+        return link + name + ". ";
     }
     
 }

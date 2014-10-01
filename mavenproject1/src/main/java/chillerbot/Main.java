@@ -60,11 +60,11 @@ public class Main {
         
         ColorToWord convert = new ColorToWord(mapper.getColorsToPairs(), colors);
         
-        for (int i = 0; i < 50; i++) {
-           System.out.println(convert.nameAndLinkForColor(Randomizer.randomColor())); 
-        }
+        System.out.println(convert.nameAndLinkForColor(Randomizer.randomColor())); 
         
+        ChillTweet tweet = new ChillTweet();
         
+        tweet.tweet(convert.nameAndLinkForColor(Randomizer.randomColor()).toString());
         
         //new ChillTweet().start();
     }
