@@ -60,7 +60,11 @@ public class Main {
         
         ColorToWord convert = new ColorToWord(mapper.getColorsToPairs(), colors);
         
-        System.out.println(convert.nameAndLinkForColor(Randomizer.randomColor())); 
+        for (int i = 0; i < 100; i++) {
+            Color color = Randomizer.randomColor();
+            System.out.println(color);
+            System.out.println(convert.nameAndLinkForColor(color));             
+        }
         
         ChillTweet tweet = new ChillTweet();
         
