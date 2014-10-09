@@ -8,10 +8,15 @@ package chillerbot.dataloader;
 import chillerbot.domain.StereotypeColor;
 import chillerbot.domain.WordPair;
 import java.awt.Color;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -99,5 +104,17 @@ public class DataLoader {
 
     public HashMap<Color, String> getColorsToLinks() {
         return colorsToLinks;
+    }
+
+    public void addNewLinksToFile(String url, List<String> newLinks) throws IOException {
+        if(newLinks.isEmpty()){
+            return;
+        }
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(url, true)));
+        out.println();
+        for (String string : newLinks) {
+            out.println(string);
+        }
+        out.close();
     }
 }

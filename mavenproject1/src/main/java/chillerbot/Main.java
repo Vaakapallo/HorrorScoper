@@ -72,6 +72,8 @@ public class Main {
         
         List<String> newLinks = tweet.getNewLinks(loader.getColorsToLinks());
         
+        loader.addNewLinksToFile("links.txt", newLinks);
+        
         //tweet.tweet(convert.nameAndLinkForColor(Randomizer.randomColor()).toString());
         
         //new ChillTweet().start();
