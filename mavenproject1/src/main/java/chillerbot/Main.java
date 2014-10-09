@@ -13,8 +13,10 @@ import chillerbot.domain.Randomizer;
 import chillerbot.domain.StereotypeColor;
 import java.awt.Color;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import twitter4j.TwitterException;
 
 /**
@@ -68,7 +70,9 @@ public class Main {
         
         ChillTweet tweet = new ChillTweet();
         
-        tweet.tweet(convert.nameAndLinkForColor(Randomizer.randomColor()).toString());
+        List<String> newLinks = tweet.getNewLinks(loader.getColorsToLinks());
+        
+        //tweet.tweet(convert.nameAndLinkForColor(Randomizer.randomColor()).toString());
         
         //new ChillTweet().start();
     }

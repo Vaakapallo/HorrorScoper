@@ -777,7 +777,7 @@ turquoise	green	#40E0D0
 tweed	brown	#937755
 tweed	orange	#C4A04C
 ultramarine	blue	#120A8F
-ultraviolet	blue	#7F1AE5
+ultraviolent	blue	#7F1AE5
 umber	brown	#635147
 undertaker	black	#161616
 urine	yellow	#F8DD5C
@@ -786,8 +786,8 @@ velvet	blue	#3F376D
 verdigris	green	#43B3AE
 vermilion	red	#E34234
 vermillion	red	#E34234
-violet	blue	#8F00FF
-violet	purple	#8F00FF
+violent	blue	#8F00FF
+violent	purple	#8F00FF
 vixen	red	#CC6483
 vomit	green	#A2A415
 waffle	yellow	#FAD89F
@@ -833,3 +833,6 @@ experiment  green   #31F562
 bite    white   #FFFFFF
 fur brown       #827362
 dead    black   #0C060F
+fetus   red     #C37373
+gangrene green  #7D8642
+affliction  brown   #CABA45

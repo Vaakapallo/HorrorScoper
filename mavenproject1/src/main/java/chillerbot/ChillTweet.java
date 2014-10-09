@@ -5,14 +5,19 @@
  */
 package chillerbot;
 
+import java.awt.Color;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import twitter4j.ResponseList;
 import twitter4j.Status;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
@@ -25,32 +30,29 @@ public class ChillTweet {
     private String CONSUMER_KEY_SECRET;
     private String ACCESS_TOKEN;
     private String ACCESS_TOKEN_SECRET;
+    private Twitter twitter;
 
+    public ChillTweet() {
+        setUpTwitter();
+    }
+    
     public void tweet(String tweet) throws TwitterException, IOException {
-
-        Twitter twitter = new TwitterFactory().getInstance();
-        if (loadKeys()) {
-            twitter.setOAuthConsumer(CONSUMER_KEY, CONSUMER_KEY_SECRET);
-
-            AccessToken oathAccessToken = new AccessToken(ACCESS_TOKEN,
-                    ACCESS_TOKEN_SECRET);
-
-            twitter.setOAuthAccessToken(oathAccessToken);
-
-            twitter.updateStatus(tweet + randomScaryThing());
-
-            System.out.println("\nMy Timeline:");
-
-            // I'm reading your timeline
-            for (Status each : twitter.getHomeTimeline()) {
-
-                System.out.println("Sent by: @" + each.getUser().getScreenName()
-                        + " - " + each.getUser().getName() + "\n" + each.getText()
-                        + "\n");
+        tweetAndShowTimeline(tweet);
+    }
+    
+    public List<String> getNewLinks(HashMap<Color, String> colorsToLinks) throws TwitterException{
+        ArrayList<String> links = new ArrayList();
+        for (Status each : getStatusesFromUser("@everycolorbot")){
+            String[] statusText = (each.getText().replace("0x","#").split(" "));
+            if(!colorsToLinks.values().contains(statusText[1])){
+                links.add(statusText[0] + " " + statusText[1]);
             }
-        } else {
-            System.out.println("Authentication failed, check keys.");
         }
+        return links;
+    }
+    
+    public ResponseList<Status> getStatusesFromUser(String username) throws TwitterException{
+        return twitter.getUserTimeline(username);
     }
 
     private boolean loadKeys() {
@@ -71,19 +73,48 @@ public class ChillTweet {
         }
         return false;
     }
-    
-    private String randomScaryThing(){
+
+    private String randomScaryThing() {
         String[] scaryCreatures = {"werewolf", "vampire", "zombie", "murderer", "killer", "swamp monster"};
-        
+
         String string = "And there's a ";
-        
+
         Random random = new Random();
-        
+
         string += scaryCreatures[random.nextInt(scaryCreatures.length)];
-        
+
         string += " behind you!";
-        
+
         return string;
+    }
+
+    private void tweetAndShowTimeline(String tweet) throws TwitterException {
+        twitter.updateStatus(tweet + randomScaryThing());
+
+        System.out.println("\nMy Timeline:");
+
+        // I'm reading your timeline
+        for (Status each : twitter.getHomeTimeline()) {
+
+            System.out.println("Sent by: @" + each.getUser().getScreenName()
+                    + " - " + each.getUser().getName() + "\n" + each.getText()
+                    + "\n");
+        }
+    }
+
+    private void setUpTwitter() {
+        twitter = new TwitterFactory().getInstance();
+        if (loadKeys()) {
+            twitter.setOAuthConsumer(CONSUMER_KEY, CONSUMER_KEY_SECRET);
+
+            AccessToken oathAccessToken = new AccessToken(ACCESS_TOKEN,
+                    ACCESS_TOKEN_SECRET);
+
+            twitter.setOAuthAccessToken(oathAccessToken);
+
+        } else {
+            System.out.println("Authentication failed, check keys.");
+        }
     }
 
 }
