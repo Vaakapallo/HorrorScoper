@@ -65,7 +65,7 @@ public class ColorBlender {
         int newRed = first.getColor().getRed() - (int)((differences[0] / 2)*ratio);
         int newGreen = first.getColor().getGreen() - (int)((differences[1] / 2)*ratio);
         int newBlue = first.getColor().getBlue() - (int)((differences[2] / 2)*ratio);
-        StereotypeColor color = new StereotypeColor(first.getStereotype() + " " + second.getStereotype(),"mix",newRed, newGreen, newBlue);
+        StereotypeColor color = new StereotypeColor(first.getStereotype() + " " + second.getStereotype(),"mix",newRed, newGreen, newBlue, first.getSpookiness() + second.getSpookiness());
         return color;
     }
 

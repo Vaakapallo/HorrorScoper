@@ -1,838 +1,837 @@
-acid	green	#B0BF1A
-absinthe	green	#7FDD4C
-acorn	brown	#7F6241
-adobe	brown	#F8B989
-agate	blue	#333A4A
-alabaster	white	#F2E7CD
-albino	white	#F1EEE2
-albumen	white	#F1EDE1
-ale	brown	#CC8E69
-algae	green	#458B00
-alien	green	#C3C728
-almond	brown	#EFDECD
-almond	orange	#FFEBCD
-aloe	green	#64AC58
-aluminium	grey	#8F8F8F
-aluminum	gray	#8F8F8F
-aluminum	white	#CECECE
-amber	brown	#E99D56
-amber	orange	#FF7E00
-amber	yellow	#FFBF00
-amethyst	blue	#A096CF
-amethyst	purple	#9966CC
-anchovy	brown	#E9967A
-anthracite	grey	#3A3C3B
-antique	brown	#CD9575
-apple	green	#8DB600
-apple	red	#9F021E
-apricot	orange	#FBCEB1
-apricot	yellow	#FBCEB1
-aqua	blue	#00FFFF
-aquamarine	blue	#7FFFD4
-arbor	green	#69A577
-ash	brown	#8C8475
-ash	white	#E7E6E0
-asparagus	green	#87A96B
-asphalt	black	#282B2A
-ass	brown	#664C28
-aubergine	purple	#370028
-auburn	brown	#A52A2A
-autumn	brown	#E09C52
-avocado	green	#568203
-azure	blue	#007FFF
-azzuro	blue	#007FFF
-baby	pink	#F4C2C2
-bacon	pink	#E35152
-badger	grey	#808080
-ballerina	pink	#F2DEE1
-banana	yellow	#FFE135
-bandana	red	#FF4139
-barbie	pink	#E0218A
-bark	brown	#554434
-barn	red	#7C0A02
-battleship	gray	#848482
-battleship	grey	#848482
-bean	green	#7EA660
-bear	brown	#8F6E4B
-beaver	brown	#964B00
-beech	yellow	#F1E4C4
-beef	red	#E33638
-beetle	black	#605038
-beet	purple	#954C67
-beet	red	#992D56
-beetroot	purple	#5D3744
-beetroot	red	#5D3744
-bee	yellow	#FFB101
-beige	yellow	#F5F1DE
-berry	blue	#4F86F7
-berry	red	#9B1500
-beryl	green	#A1BEAE
-bile	green	#324F17
-bile	yellow	#E0D873
-biscotti	brown	#E2C681
-biscuit	brown	#E8D2BB
-bisque	pink	#FFE4C4
-blackjack	black	#51504D
-blaze	orange	#E64E3A
-bleach	white	#EBE1CE
-blister	red	#F64D54
-blonde	yellow	#FAF0BE
-blood	red	#8A0707
-bloody	red	#8A0707
-bluebell	blue	#5B94D0
-blueberry	blue	#4F86F7
-blueberry	purple	#617099
-bluegrass	blue	#859394
-bluegrass	green	#839783
-blush	red	#DE5D83
-bolognese	red	#B7410E
-bone	white	#E3DAC9
-booger	green	#8BA870
-boot	brown	#BA8759
-boot	grey	#3B3B3B
-bordeaux	red	#5F021F
-bourbon	brown	#936C43
-brain	gray	#E3E3E3
-brain	grey	#E3E3E3
-brain	white	#FFF8F1
-bran	brown	#C48C3D
-brandy	brown	#D28D6C
-brass	yellow	#B5A642
-brick	brown	#8A4E37
-brickdust	red	#9B7B6F
-brick	orange	#CD853F
-brick	red	#CB4154
-broccoli	green	#6D7C4B
-bronze	brown	#CD7F32
-bronze	orange	#CD7F32
-bronze	red	#AE6842
-bruise	blue	#96CDCD
-bruise	purple	#8B2252
-bubblegum	pink	#FFC9D7
-buff	brown	#F0DC82
-buff	orange	#EDC482
-buff	yellow	#F0DC82
-bunny	pink	#FFE3F4
-burgundy	red	#800020
-burnt	black	#320007
-buttercream	yellow	#FFF7DB
-buttercup	yellow	#E0CD40
-buttermilk	yellow	#EDE0C0
-butternut	orange	#FFDA77
-butternut	yellow	#FFDA77
-butterscotch	yellow	#C4A34E
-butter	yellow	#F5EEBA
-buttery	yellow	#F5EEBA
-cabbage	green	#93C460
-cadaver	green	#C0D9AF
-caffeine	brown	#5F4842
-camel	brown	#C19A6B
-camouflage	green	#78866B
-camphor	white	#F0F8FF
-canary	yellow	#FFEF00
-candy	pink	#E4717A
-candy	red	#9D2A17
-canopy	green	#7E8951
-cantaloupe	green	#ADFF2F
-canvas	white	#F7F4E6
-cappuccino	brown	#986F59
-caramel	brown	#987043
-caramel	orange	#CC8654
-cardboard	gray	#D3D3D3
-cardboard	grey	#D3D3D3
-cardinal	red	#C41E3A
-carmine	red	#FF0038
-carnation	pink	#FFA6C9
-carrot	orange	#ED9121
-catbird	purple	#5971AD
-cat	black	#2B2B2B
-catfish	blue	#007BA7
-catsup	red	#A52A2A
-cauliflower	white	#FAFAD2
-caviar	black	#302E2F
-cedar	red	#C95A49
-cedar	yellow	#FADA5E
-celadon	blue	#007BA7
-celadon	green	#2F847C
-celery	green	#9BD687
-cement	gray	#7D8471
-cement	grey	#7D8471
-cerise	pink	#EC3B83
-cerulean	blue	#2A52BE
-chalk	white	#EBEEEC
-champagne	pink	#EDE1D5
-charcoal	black	#1F1F21
-charcoal	blue	#223144
-charcoal	gray	#36454F
-charcoal	grey	#36454F
-chartreuse	green	#7FFF00
-cheddar	orange	#FD941F
-cheddar	yellow	#FDFD96
-cheese	orange	#F2BB66
-cheese	yellow	#FFD867
-cherry	pink	#DE3163
-cherry	red	#A44045
-chestnut	brown	#954535
-chickpea	green	#608341
-chiffon	pink	#EDDCE0
-chili	red	#B24141
-chilli	red	#B24141
-chimney	black	#1C1D1F
-china	blue	#2B5B75
-chive	green	#2A6241
-chlorophyll	green	#157D41
-chocolate	brown	#7B3F00
-chromium	blue	#4A646C
-cigar	brown	#744D36
-cinder	black	#242A2E
-cinder	gray	#878D90
-cinder	grey	#878D90
-cinnabar	red	#E34234
-cinnamon	brown	#D2691E
-citron	green	#9FA91F
-citron	yellow	#E4D00A
-citrus	green	#424D18
-claret	red	#7F1734
-clay	brown	#F0C989
-clay	red	#AF6049
-cloud	gray	#808283
-cloud	grey	#808283
-cloud	white	#D8D7D3
-clove	brown	#524438
-coal	black	#060607
-cobalt	blue	#0047AB
-cocaine	white	#FFFFE0
-cocoa	brown	#D2691E
-coffee	black	#494037
-coffee	brown	#6F4E37
-coffin	brown	#964B00
-cognac	brown	#EC9028
-cola	brown	#894C3B
-communist	red	#E30022
-concrete	gray	#B9B4AB
-concrete	grey	#B9B4AB
-copper	green	#B0D8CC
-copper	orange	#DA8A67
-copper	red	#CB6D51
-coral	orange	#FF7F50
-coral	pink	#F88379
-coral	red	#FF4040
-cornbread	yellow	#FADA5E
-cornflower	blue	#6495ED
-cornmeal	yellow	#FCDC9E
-corn	yellow	#FBEC5D
-corpse	gray	#EDEDED
-cotton	white	#F2F0E8
-cow	brown	#663300
-cranberry	red	#911929
-crap	brown	#B8860B
-crawdaddy	red	#E34234
-crawdad	red	#E34234
-crawfish	red	#E34234
-cream	white	#FFFDD0
-crimson	red	#DC143C
-crocus	yellow	#FDEE00
-crouton	brown	#D2B48C
-crow	black	#152324
-crust	brown	#B78B43
-crystal	blue	#D2E5E3
-cucumber	green	#2FBD78
-currant	red	#781425
-curry	brown	#DA9E19
-curried	brown	#DA9E19
-custard	yellow	#FDF0B5
-cyan	blue	#00FFFF
-daffodil	yellow	#FFFF31
-daisy	yellow	#E4C457
-dandelion	yellow	#F0E130
-dandruff	white	#F5F5DC
-dawn	blue	#CAD6E8
-delft	blue	#162545
-demon	red	#7D1C1C
-denim	blue	#1560BD
-dermatitis	red	#DE3163
-desert	brown	#C19A6B
-devil	red	#7D1C1C
-diarrhoea	brown	#704214
-dirt	brown	#9B7653
-dishwater	gray	#838383
-dough	white	#F4E8D7
-dove	gray	#708090
-dove	grey	#708090
-drab	brown	#967117
-drab	green	#434F38
-dragon	red	#CC4834
-dun	brown	#DFCFB7
-dung	brown	#BFA070
-dust	brown	#B9AB90
-earth	brown	#E1A95F
-ebony	black	#555D50
-eggplant	purple	#614051
-eggshell	white	#F0EAD6
-eggyolk	yellow	#FFE54D
-elephant	grey	#8D847F
-elk	red	#79443B
-elm	green	#4A5D23
-elm	red	#97775A
-emerald	green	#50C878
-enamel	blue	#185D81
-enamel	white	#E7EAEA
-envy	green	#6CB037
-espresso	black	#393536
-espresso	brown	#6F5846
-excrement	brown	#BFA070
-eye	blue	#2A52BE
-faeces	brown	#BFA070
-fawn	brown	#E5AA70
-fern	green	#4F7942
-firecracker	red	#C76157
-fire	orange	#E25822
-fire	red	#B22222
-flame	orange	#E25822
-flame	red	#E25822
-flamingo	pink	#FC8EAC
-flesh	pink	#EEC8C7
-floral	green	#228B22
-flour	white	#F3EDDF
-foam	white	#F5E9DA
-foliage	green	#228B22
-forest	green	#228B22
-fox	red	#CD5700
-fridge	white	#FCFCFC
-frog	green	#9AB78B
-frost	white	#D9E6E4
-fuchsia	purple	#CC397B
-fuchsia	red	#B7386E
-fudge	brown	#64493E
-funeral	black	#010101
-fuschia	red	#AE2865
-gallstone	yellow	#DAA520
-garden	green	#006600
-garlic	white	#E4E9C0
-garlic	yellow	#F6EBC3
-garnet	red	#651E1A
-garter	blue	#5184BF
-gentian	blue	#6B6EA6
-ghost	gray	#E6E7E2
-ghost	grey	#E6E7E2
-ghost	white	#F8F8FF
-gilt	orange	#E3C84C
-gingerbread	brown	#CA994E
-gingerbread	orange	#ECA02A
-ginger	brown	#9C8260
-ginger	orange	#CA884E
-ginger	red	#C47444
-glacier	blue	#8197AA
-glacier	white	#E9F9F5
-gold	orange	#FFD700
-gold	yellow	#FFD700
-gore	red	#940008
-granite	gray	#B4B4AD
-granite	grey	#B4B4AD
-granola	brown	#A68F59
-granola	orange	#F5CE9F
-grape	green	#D4D678
-grape	purple	#8481AE
-Grape	red	#7B3B44
-graphite	gray	#5E5F5D
-graphite	grey	#5E5F5D
-grass	green	#A09238
-gravy	brown	#86644F
-grill	red	#CD5B45
-grime	brown	#483C32
-grizzly	brown	#604C3D
-guava	yellow	#F5C71A
-gunmetal	black	#04030B
-gunmetal	blue	#26363B
-gunmetal	gray	#2A3439
-gunmetal	grey	#2A3439
-gunpowder	black	#3B3B3B
-ham	pink	#FB607F
-hash	brown	#E1CAAD
-hazel	brown	#966841
-hazelnut	brown	#AE9F80
-heart	red	#A52A2A
-heather	blue	#B2A4D7
-hemlock	red	#AA381E
-hemlock	yellow	#BABB84
-hemp	brown	#BAA566
-henna	red	#6E3330
-heron	blue	#5D6B86
-holly	green	#21422D
-honey	brown	#B39355
-honey	orange	#E49924
-honey	yellow	#FFDB8C
-house	red	#722F37
-hummingbird	blue	#1560BD
-hunter	orange	#E87600
-hyacinth	blue	#8293C5
-hyacinth	red	#CF1020
-hyperlink	blue	#2A52BE
-ice	white	#FEFEFE
-indigo	blue	#4B0082
-ink	blue	#00608B
-iPod	white	#FCFCFC
-iris	blue	#8F00FF
-iron	gray	#434B4D
-iron	grey	#434B4D
-ivory	pink	#F1D9CF
-ivory	white	#FFFFF0
-ivy	green	#58714A
-jade	green	#55C0A9
-jasper	green	#243225
-jaundice	yellow	#FFBF00
-jet	black	#010101
-jungle	green	#29AB87
-kangaroo	grey	#8B8589
-ketchup	red	#BC6B5D
-khaki	brown	#C3B091
-kingfisher	blue	#0081AD
-kiwi	green	#9ACD32
-kohl	black	#212121
-lacquer	black	#1E1E1E
-ladybug	red	#B13F44
-lager	orange	#B87333
-lagoon	blue	#1E98AE
-lamb	white	#F8F7F4
-lapis	blue	#004C94
-laser	red	#C70E20
-lava	orange	#FF5800
-lava	yellow	#FFBF00
-lavender	pink	#FBAED2
-lavender	purple	#9678B6
-lawn	green	#7CFC00
-leaf	green	#008000
-leather	brown	#8F5C3D
-leather	red	#B27046
-leek	green	#76AA83
-lemonade	yellow	#EDE777
-lemon	yellow	#F5C71A
-lettuce	green	#C8E17B
-lichen	green	#99A285
-licorice	black	#1A1110
-lilac	blue	#9955BB
-lilac	pink	#D891EF
-lilac	white	#EFEAEB
-lily	white	#ECE6C8
-lime	green	#BFFF00
-limestone	yellow	#E3E0CE
-linen	white	#FFFFFF
-lingerie	black	#000000
-lingerie	pink	#F4C2C2
-lion	orange	#C19A6B
-lipgloss	red	#FF0038
-lipstick	pink	#F19CBB
-lipstick	red	#B31B1B
-litchi	white	#FFFAF0
-liver	brown	#674C47
-lizard	green	#4FA93F
-lobster	red	#CC2C18
-lollipop	red	#FF0800
-lotus	pink	#F64A8A
-lust	red	#E62020
-magenta	pink	#FF00FF
-magenta	red	#FF00FF
-mahogany	brown	#C04000
-maize	yellow	#FBEC5D
-mandarin	orange	#E9692C
-mandrake	red	#CC7722
-mango	orange	#FFBF00
-mango	yellow	#FFBF00
-manila	brown	#FFDFA0
-manure	brown	#6B4423
-maple	brown	#CB410B
-maple	orange	#CB410B
-maple	yellow	#FFB963
-marble	white	#F5F5F5
-margarine	yellow	#FFFDD0
-marigold	orange	#FF7E00
-marigold	yellow	#FFBF00
-marinara	red	#E03C31
-marmalade	orange	#F27F00
-maroon	red	#800000
-marshmallow	white	#EDEBE7
-marzipan	yellow	#EBC881
-mascara	black	#292524
-mauve	pink	#E0B0FF
-mayonnaise	white	#FAF6E6
-mayo	white	#FAF6E6
-meadow	green	#73A55B
-melba	orange	#FFBF00
-melon	orange	#FF7E00
-melon	red	#E52B50
-melon	yellow	#FFBA00
-meringue	white	#FDFAF0
-merlot	red	#651F1B
-microwave	white	#FCFCFC
-midnight	black	#010208
-milkshake	white	#FEFCF7
-milk	white	#FEFCF7
-mincemeat	red	#E34234
-mince	red	#E34234
-mint	green	#3EB489
-mist	gray	#E6F1EC
-mocha	brown	#7F5F51
-molasses	black	#574A47
-moonlight	white	#F8F8FF
-moonstone	blue	#73A9C2
-moon	white	#F5F5F5
-moss	green	#4A5D23
-mourning	black	#1A1110
-mouse	brown	#A89B88
-mouse	grey	#7F8072
-mud	brown	#927F66
-mud	grey	#8B8589
-mulberry	purple	#C54B8C
-mummy	brown	#6F4E37
-mushroom	brown	#AC9379
-muslin	brown	#E8E1C9
-mustard	brown	#CFA33B
-mustard	orange	#EAB41E
-mustard	yellow	#FFDB58
-myrtle	green	#21421E
-nappy	brown	#BFA070
-navy	blue	#000080
-negative	black	#1A1110
-neoprene	black	#1A1D1D
-neoprene	blue	#0070FF
-nicotine	yellow	#9E6B33
-night	black	#010208
-nightgown	pink	#F9DCE1
-nightingale	brown	#CC7722
-nipple	pink	#FA8072
-noir	black	#010101
-nut	brown	#EDCCB3
-nutty	brown	#EDCCB3
-nutmeg	brown	#7E4A3B
-oatmeal	gray	#E8E3D6
-oatmeal	grey	#E8E3D6
-obsidian	black	#132019
-ocean	blue	#2C5779
-ocher	brown	#B99E78
-ochre	orange	#CC7722
-ochre	yellow	#FFD700
-oil	black	#383838
-okra	green	#6B8E23
-olive	green	#808000
-onyx	black	#353839
-opal	blue	#4997D0
-opal	white	#ECECED
-orchid	black	#423B49
-orchid	blue	#273BE2
-orchid	purple	#DA70D6
-orchid	white	#FFFAF0
-oven	brown	#9D472C
-oxblood	red	#582B2F
-palomino	white	#FCF1D2
-pancake	brown	#907551
-pansy	blue	#4A568E
-pansy	purple	#440058
-paper	white	#FBFBF8
-paprika	red	#D43800
-parchment	white	#F2E1C1
-parchment	yellow	#E2BE79
-park	green	#228B22
-parmesan	yellow	#F6E7B8
-parrot	green	#6CA939
-parsley	green	#7DB143
-pate	brown	#DAC1A9
-pate	pink	#A95C68
-peach	orange	#FFCBA4
-peach	pink	#FFDAB9
-peacock	blue	#1D618C
-pear	brown	#C6AB55
-pear	green	#E1E36E
-pearl	white	#F7FBEF
-pearly	white	#F7FBEF
-pearly	pink	#F0D6D7
-peat	brown	#5C4D39
-pecan	brown	#91694A
-pee	yellow	#F8DD5C
-pepper	gray	#777474
-pepper	green	#44743D
-peppermint	green	#01993D
-pepper	red	#D10000
-periwinkle	blue	#CCCCFF
-persian	blue	#1C39BB
-persimmon	orange	#D76D39
-pewter	gray	#606865
-pewter	grey	#606865
-piano	black	#020101
-pigeon	gray	#4A5050
-pillow	white	#FFFFFF
-pineapple	orange	#F3D64F
-pine	green	#01796F
-piss	green	#CFB53B
-piss	yellow	#F8DD5C
-pistachio	green	#93C572
-pitch	black	#2A2829
-plaque	brown	#663300
-plum	red	#8E4585
-polarbear	white	#EFF3E0
-polenta	yellow	#FECC49
-pomegranate	red	#A61A1D
-poo	brown	#BFA070
-poop	brown	#BFA070
-poppy	red	#FF2400
-porcelain	blue	#1E528C
-porcelain	white	#ECEBE6
-pork	pink	#FB607F
-porridge	gray	#E8E3D6
-porridge	grey	#E8E3D6
-port	red	#441A1A
-potato	brown	#B79268
-prawn	pink	#F9CCCA
-prawn	red	#E34234
-primrose	yellow	#F4CF5B
-prussian	blue	#003153
-puce	purple	#A95C68
-puce	red	#722F37
-puke	orange	#E49B0F
-puke	yellow	#F4C430
-pumpernickel	brown	#655240
-pumpkin	orange	#FF7518
-purpurea	purple	#FF00FF
-putty	gray	#C0BBAB
-putty	grey	#C0BBAB
-Radish	red	#BB1F44
-raisin	brown	#64403F
-rash	red	#FF355E
-raspberry	red	#E30B5C
-raven	black	#252629
-redwood	brown	#A45A52
-reed	green	#87A96B
-refrigerator	white	#FCFCFC
-rhubarb	purple	#872657
-rhubarb	red	#BF4F4F
-ribbon	red	#E30022
-rice	brown	#CFB384
-rice	white	#FEFEFB
-robin	red	#ED872D
-rocket	red	#BA3B3D
-rootbeer	red	#842E0B
-rose	pink	#F19CBB
-rosé	pink	#FB607F
-rosy	red	#FF033E
-rose	red	#FF033E
-rouge	red	#C60800
-royal	purple	#4169E1
-ruby	red	#E0115F
-rum	brown	#D2691E
-russet	brown	#80461B
-russet	orange	#9F5721
-russet	red	#6C2A24
-rust	brown	#B7410E
-rust	orange	#B7410E
-rust	red	#B7410E
-rusty	brown	#B7410E
-rusty	orange	#B7410E
-rusty	red	#B7410E
-rusted	brown	#B7410E
-rusted	orange	#B7410E
-rusted	red	#B7410E
-sable	brown	#3E3526
-sackcloth	black	#332C22
-saddle	brown	#563424
-saffron	orange	#FF9933
-saffron	yellow	#F4C430
-sage	brown	#9C8F60
-sage	green	#9FC3A9
-salad	green	#4BA351
-saliva	white	#FCFCFC
-salmon	pink	#FF91A4
-salmon	red	#FA8072
-salt	white	#FFFFFF
-sand	brown	#EDC9AF
-sandy	brown	#EDC9AF
-sandstone	yellow	#E1A95F
-sand	yellow	#C2B280
-sandy	yellow	#C2B280
-sap	green	#507D2A
-sapphire	blue	#0F52BA
-sardine	gray	#4682B4
-sardine	grey	#4682B4
-satin	white	#FBFCFD
-scarlet	red	#FF2400
-scenery	green	#228B22
-schoolbus	yellow	#FFC40C
-seafoam	green	#71EEB8
-seashell	white	#FFF5EE
-seaweed	green	#5D7759
-semen	white	#F7F5EC
-shadow	black	#2F3233
-shadow	gray	#6E6F6D
-shamrock	green	#009E60
-sheet	white	#FFFFFF
-sherbet	orange	#FFBF00
-shit	brown	#B87333
-shoe	brown	#6B4423
-shrimp	pink	#E4A4A6
-sienna	brown	#882D17
-silk	white	#FFF8DC
-silt	brown	#816E2A
-silver	gray	#C0C0C0
-silver	grey	#C0C0C0
-skeleton	white	#FFFFF0
-sky	blue	#87CEEB
-slate	black	#19191C
-slate	gray	#708090
-slate	grey	#708090
-slime	green	#32CD32
-sloe	black	#302E45
-sludge	brown	#635147
-smog	gray	#91A3B0
-smog	grey	#91A3B0
-smoke	black	#3D2B1F
-smoke	brown	#3D2B1F
-smoke	gray	#708C98
-smoke	grey	#708C98
-snot	green	#CFDBC5
-snowflake	white	#EFF0F0
-snow	white	#FFFAFA
-soap	white	#F4F2E7
-soil	brown	#6D584A
-soot	black	#383D42
-soot	gray	#5D5C5E
-soybean	green	#78AB46
-soylent	green	#8BA870
-spaghetti	yellow	#FDE474
-spam	pink	#F19CBB
-spectre	gray	#343E54
-spectre	grey	#343E54
-spider	black	#37363C
-spinach	green	#57A75B
-sponge	yellow	#FFFF66
-spruce	green	#66BB66
-spruce	yellow	#C8D62D
-squirrel	gray	#78858B
-starch	white	#FFFFFF
-star	white	#FAFDEC
-steak	brown	#AE704F
-steel	blue	#4682B4
-steel	grey	#686F82
-stone	gray	#888C8D
-stone	grey	#888C8D
-storm	gray	#858F87
-strawberry	red	#D53032
-straw	yellow	#E4D96F
-submarine	gray	#B6BDC4
-submarine	grey	#B6BDC4
-sugar	brown	#B98E63
-sugar	white	#FEFEFE
-sulfur	yellow	#EDFF21
-sulphur	yellow	#EDFF21
-summer	green	#8EBD99
-sunburn	red	#ED8F65
-sunburnt	red	#ED8F65
-sunburst	yellow	#FFFD7F
-sunflower	yellow	#FFC347
-sun	orange	#FFB310
-sunset	orange	#FD5E53
-sunset	red	#FD5E53
-sunset	yellow	#FAD6A5
-sunshine	yellow	#FFCC33
-sun	yellow	#FFCC33
-swan	white	#F4F4E2
-sweatsock	white	#F7F5E9
-taffy	brown	#F1B059
-taffy	yellow	#F1B059
-tandoori	red	#E53134
-tangerine	orange	#F28500
-tan	orange	#D2B48C
-tar	black	#383838
-taupe	brown	#483C32
-taupe	grey	#8B8589
-taxicab	yellow	#F2E51D
-taxi	yellow	#F2E51D
-tea	brown	#80461B
-teak	black	#4E361F
-teal	green	#008080
-teeth	white	#EEE6D8
-terracotta	red	#E2725B
-tiger	orange	#CB7119
-tikka	red	#FF4500
-titanium	gray	#6A696F
-toast	brown	#B58C37
-tobacco	brown	#685642
-toffee	brown	#8E593C
-tofu	white	#F5F5DC
-toilet	white	#FAF7F2
-tomatillo	red	#FF5349
-tomato	red	#FF6347
-toothpaste	white	#F5FFFA
-topaz	blue	#0198E1
-topaz	green	#8CBAA0
-topaz	yellow	#FFC87C
-torch	red	#FC1420
-tree	green	#228B22
-trout	brown	#B29D89
-turd	brown	#BB8318
-turf	brown	#7F5217
-turkey	red	#A91101
-turmeric	orange	#E9A447
-turmeric	yellow	#CABB48
-turnip	yellow	#FFFF7E
-turquoise	blue	#00FFEF
-turquoise	green	#40E0D0
-tweed	brown	#937755
-tweed	orange	#C4A04C
-ultramarine	blue	#120A8F
-ultraviolent	blue	#7F1AE5
-umber	brown	#635147
-undertaker	black	#161616
-urine	yellow	#F8DD5C
-vanilla	white	#F3E5AB
-velvet	blue	#3F376D
-verdigris	green	#43B3AE
-vermilion	red	#E34234
-vermillion	red	#E34234
-violent	blue	#8F00FF
-violent	purple	#8F00FF
-vixen	red	#CC6483
-vomit	green	#A2A415
-waffle	yellow	#FAD89F
-walnut	brown	#5D432C
-wasabi	green	#849137
-watermelon	green	#659D32
-watermelon	red	#F05B78
-wax	white	#F7E3BC
-whale	blue	#1E3442
-wheatgrass	green	#CFCC8F
-whiskey	brown	#D59A6F
-wholemeal	brown	#F5CE95
-widow	black	#1A1110
-willow	green	#A2C771
-wine	red	#722F37
-winter	grey	#D1CED7
-wisteria	blue	#C9A0DC
-wood	brown	#663300
-wool	white	#FFFDE8
-yogurt	white	#F1ECD6
-yolk	yellow	#FFE54D
-zinc	white	#E1DBD0
-zucchini	green	#516138
-zombie  brown   #6A7049
-vampire red     #470708
-vampire black   #151313
-werewolf    brown   #8E7204
-cape    red     #960D14
-flesh   pink    #F2B4AE
-flesh   red     #F69385
-fang    brown   #CDB08C
-guts    red     #961919
-scientist   white   #F0F0F1
-mad     red     #FC0856
-crazy   pink    #DB1D70
-cannibal    red #F03355
-killer  red     #FF050D
-swamp   green   #495F1C
-monster green   #1A5F13
-contract white  #DEE0E0
-failed  grey    #88A698
-experiment  green   #31F562
-bite    white   #FFFFFF
-fur brown       #827362
-dead    black   #0C060F
-fetus   red     #C37373
-gangrene green  #7D8642
-affliction  brown   #CABA45
+acid	green	#B0BF1A 3
+absinthe	green	#7FDD4C 2
+acorn	brown	#7F6241 0
+adobe	brown	#F8B989 1
+agate	blue	#333A4A 0 
+alabaster	white	#F2E7CD 0
+albino	white	#F1EEE2 1
+albumen	white	#F1EDE1 0
+ale	brown	#CC8E69 0
+algae	green	#458B00 2
+alien	green	#C3C728 3
+almond	brown	#EFDECD 0
+almond	orange	#FFEBCD 0
+aloe	green	#64AC58 0
+aluminium	grey	#8F8F8F 1
+aluminum	gray	#8F8F8F 1
+aluminum	white	#CECECE 1
+amber	brown	#E99D56 0
+amber	orange	#FF7E00 0
+amber	yellow	#FFBF00 0
+amethyst	blue	#A096CF 0
+amethyst	purple	#9966CC 0
+anchovy	brown	#E9967A 0
+anthracite	grey	#3A3C3B 0
+medieval	brown	#CD9575 2
+apple	green	#8DB600 0
+apple	red	#9F021E 0
+brainstem	orange	#FBCEB1 2
+brainstem	yellow	#FBCEB1 0
+aqua	blue	#00FFFF 0
+aquamarine	blue	#7FFFD4 0
+arbor	green	#69A577 0
+ash	brown	#8C8475 1
+cremated	white	#E7E6E0 1
+asparagus	green	#87A96B 0
+asphalt	black	#282B2A 0
+ass	brown	#664C28 1
+aubergine	purple	#370028 0
+auburn	brown	#A52A2A 0
+autumn	brown	#E09C52 1
+avocado	green	#568203 0
+azure	blue	#007FFF 0
+baby	pink	#F4C2C2 1
+bacon	pink	#E35152 0
+badger	grey	#808080 1
+ballerina	pink	#F2DEE1 1
+banana	yellow	#FFE135 0
+bandana	red	#FF4139 1
+barbie	pink	#E0218A 1
+bark	brown	#554434 0
+barn	red	#7C0A02 1
+battleship	gray	#848482 1
+battleship	grey	#848482 1
+bean	green	#7EA660 0
+bear	brown	#8F6E4B 2
+beaver	brown	#964B00 1
+beech	yellow	#F1E4C4 0
+beef	red	#E33638 1
+beetle	black	#605038 3
+beet	purple	#954C67 0
+beet	red	#992D56 0
+beetroot	purple	#5D3744 0
+beetroot	red	#5D3744 0
+bee	yellow	#FFB101 1
+beige	yellow	#F5F1DE 0
+berry	blue	#4F86F7 0
+berry	red	#9B1500 0
+beryl	green	#A1BEAE 0
+bile	green	#324F17 4
+bile	yellow	#E0D873 4
+biscotti	brown	#E2C681 0
+biscuit	brown	#E8D2BB 0
+bisque	pink	#FFE4C4 0
+blackjack	black	#51504D 1
+blaze	orange	#E64E3A 1
+bleach	white	#EBE1CE 1
+blister	red	#F64D54 3
+blonde	yellow	#FAF0BE 0
+blood	red	#8A0707 5
+bloody	red	#8A0707 5
+bluebell	blue	#5B94D0 0
+blueberry	blue	#4F86F7 0
+blueberry	purple	#617099 0
+bluegrass	blue	#859394 0
+bluegrass	green	#839783 0
+blush	red	#DE5D83 0
+bolognese	red	#B7410E 0
+bone	white	#E3DAC9 5
+booger	green	#8BA870 2
+boot	brown	#BA8759 0
+boot	grey	#3B3B3B 0
+bordeaux	red	#5F021F 0
+bourbon	brown	#936C43 0
+brain	gray	#E3E3E3 5
+brain	grey	#E3E3E3 5
+brain	white	#FFF8F1 5
+bran	brown	#C48C3D 0
+brandy	brown	#D28D6C 0
+brass	yellow	#B5A642 0
+brick	brown	#8A4E37 0
+brickdust	red	#9B7B6F 0
+brick	orange	#CD853F 0
+brick	red	#CB4154 0
+broccoli	green	#6D7C4B 0
+bronze	brown	#CD7F32 0
+bronze	orange	#CD7F32 0
+bronze	red	#AE6842 0
+bruise	blue	#96CDCD 3
+bruise	purple	#8B2252 3
+bubblegum	pink	#FFC9D7 0
+buff	brown	#F0DC82 0
+buff	orange	#EDC482 0
+buff	yellow	#F0DC82 0
+bunny	pink	#FFE3F4 0
+burgundy	red	#800020 0
+burnt	black	#320007 3
+buttercream	yellow	#FFF7DB 0
+buttercup	yellow	#E0CD40 0
+buttermilk	yellow	#EDE0C0 0
+butternut	orange	#FFDA77 0
+butternut	yellow	#FFDA77 0
+butterscotch	yellow	#C4A34E 0
+butter	yellow	#F5EEBA 0
+buttery	yellow	#F5EEBA 0
+cabbage	green	#93C460 0
+cadaver	green	#C0D9AF 5
+caffeine	brown	#5F4842 0
+camel	brown	#C19A6B 0
+camouflage	green	#78866B 1
+camphor	white	#F0F8FF 0
+canary	yellow	#FFEF00 0
+candy	pink	#E4717A 0
+candy	red	#9D2A17 0
+canopy	green	#7E8951 0
+cantaloupe	green	#ADFF2F 0
+canvas	white	#F7F4E6 0
+cappuccino	brown	#986F59 0
+caramel	brown	#987043 0
+caramel	orange	#CC8654 0
+cardboard	gray	#D3D3D3 0
+cardboard	grey	#D3D3D3 0
+cardinal	red	#C41E3A 0
+carmine	red	#FF0038 0
+carnation	pink	#FFA6C9 0
+carrot	orange	#ED9121 0
+catbird	purple	#5971AD 0
+cat	black	#2B2B2B 4
+catfish	blue	#007BA7 0
+catsup	red	#A52A2A 0
+cauliflower	white	#FAFAD2 0
+caviar	black	#302E2F 0
+cedar	red	#C95A49 0
+cedar	yellow	#FADA5E 0
+celadon	blue	#007BA7 0
+celadon	green	#2F847C 0
+celery	green	#9BD687 0
+cement	gray	#7D8471 1
+cement	grey	#7D8471 1
+cerise	pink	#EC3B83 0
+cerulean	blue	#2A52BE 0
+chalk	white	#EBEEEC 1
+champagne	pink	#EDE1D5 0
+charcoal	black	#1F1F21 0
+charcoal	blue	#223144 0
+charcoal	gray	#36454F 0
+charcoal	grey	#36454F 0
+chartreuse	green	#7FFF00 0
+cheddar	orange	#FD941F 0
+cheddar	yellow	#FDFD96 0
+cheese	orange	#F2BB66 0
+cheese	yellow	#FFD867 0
+cherry	pink	#DE3163 0
+cherry	red	#A44045 0
+chestnut	brown	#954535 0
+chickpea	green	#608341 0
+chiffon	pink	#EDDCE0 0
+chili	red	#B24141 0
+chilli	red	#B24141 0
+chimney	black	#1C1D1F 1
+china	blue	#2B5B75 0
+chive	green	#2A6241 0
+chlorophyll	green	#157D41 0
+chocolate	brown	#7B3F00 0
+chromium	blue	#4A646C 1
+cigar	brown	#744D36 0
+cinder	black	#242A2E 2
+cinder	gray	#878D90 2
+cinder	grey	#878D90 2
+cinnabar	red	#E34234 0
+cinnamon	brown	#D2691E 0
+citron	green	#9FA91F 0
+citron	yellow	#E4D00A 0
+citrus	green	#424D18 0
+claret	red	#7F1734 0
+clay	brown	#F0C989 0
+clay	red	#AF6049 0
+cloud	gray	#808283 0
+cloud	grey	#808283 0
+cloud	white	#D8D7D3 0
+clove	brown	#524438 2
+coal	black	#060607 0
+cobalt	blue	#0047AB 0
+cocaine	white	#FFFFE0 1
+cocoa	brown	#D2691E 0
+coffee	black	#494037 0
+coffee	brown	#6F4E37 0
+coffin	brown	#964B00 0
+cognac	brown	#EC9028 0
+cola	brown	#894C3B 0
+communist	red	#E30022 0
+concrete	gray	#B9B4AB 1
+concrete	grey	#B9B4AB 1
+copper	green	#B0D8CC 0
+copper	orange	#DA8A67 0
+copper	red	#CB6D51 0
+coral	orange	#FF7F50 0
+coral	pink	#F88379 0
+coral	red	#FF4040 0
+cornbread	yellow	#FADA5E 0
+cornflower	blue	#6495ED 0
+cornmeal	yellow	#FCDC9E 0
+corn	yellow	#FBEC5D 1
+corpse	gray	#EDEDED 5
+cotton	white	#F2F0E8 0
+cow	brown	#663300 0
+cranberry	red	#911929 2
+crap	brown	#B8860B 1
+crawdaddy	red	#E34234 1
+crawdad	red	#E34234 1
+crawfish	red	#E34234 1
+cream	white	#FFFDD0 0
+crimson	red	#DC143C 3
+crocus	yellow	#FDEE00 0
+crouton	brown	#D2B48C 0
+crow	black	#152324 4
+crust	brown	#B78B43 0
+crystal	blue	#D2E5E3 2
+cucumber	green	#2FBD78 0
+currant	red	#781425 0
+curry	brown	#DA9E19 0
+curried	brown	#DA9E19 0
+custard	yellow	#FDF0B5 0
+cyan	blue	#00FFFF 0
+daffodil	yellow	#FFFF31 0
+daisy	yellow	#E4C457 0
+dandelion	yellow	#F0E130 0
+dandruff	white	#F5F5DC 0
+dawn	blue	#CAD6E8 0
+delft	blue	#162545 0
+demon	red	#7D1C1C 5
+denim	blue	#1560BD 0
+dermatitis	red	#DE3163 3
+desert	brown	#C19A6B 0
+devil	red	#7D1C1C 5
+diarrhoea	brown	#704214 2
+dirt	brown	#9B7653 1
+dishwater	gray	#838383 0
+dough	white	#F4E8D7 0
+dove	gray	#708090 0
+dove	grey	#708090 0
+drab	brown	#967117 1
+drab	green	#434F38 1
+dragon	red	#CC4834 2
+dun	brown	#DFCFB7 0
+dung	brown	#BFA070 0
+dust	brown	#B9AB90 0
+earth	brown	#E1A95F 0
+ebony	black	#555D50 2
+eggplant	purple	#614051 0
+eggshell	white	#F0EAD6 0
+eggyolk	yellow	#FFE54D 0
+elephant	grey	#8D847F 0
+elk	red	#79443B 0
+elm	green	#4A5D23 0
+elm	red	#97775A 0
+emerald	green	#50C878 1
+enamel	blue	#185D81 0
+enamel	white	#E7EAEA 0
+envy	green	#6CB037 0
+espresso	black	#393536 0
+espresso	brown	#6F5846 0
+excrement	brown	#BFA070 0
+eye	blue	#2A52BE 2
+faeces	brown	#BFA070 1
+fawn	brown	#E5AA70 0
+fern	green	#4F7942 0
+firecracker	red	#C76157 0
+fire	orange	#E25822 0
+fire	red	#B22222 3
+flame	orange	#E25822 3
+flame	red	#E25822 3
+flamingo	pink	#FC8EAC 0
+flesh	pink	#EEC8C7 4
+floral	green	#228B22 0
+flour	white	#F3EDDF 0
+foam	white	#F5E9DA 0
+foliage	green	#228B22 0
+forest	green	#228B22 0
+fox	red	#CD5700 0
+fridge	white	#FCFCFC 0
+frog	green	#9AB78B 2
+frost	white	#D9E6E4 0
+fuchsia	purple	#CC397B 0
+fuchsia	red	#B7386E 0
+fudge	brown	#64493E 0
+funeral	black	#010101 5
+fuschia	red	#AE2865 0
+gallstone	yellow	#DAA520 0
+garden	green	#006600 0
+garlic	white	#E4E9C0 0
+garlic	yellow	#F6EBC3 3
+garnet	red	#651E1A 2
+garter	blue	#5184BF 0
+gentian	blue	#6B6EA6 0
+ghost	gray	#E6E7E2 5
+ghost	grey	#E6E7E2 5
+ghost	white	#F8F8FF 5
+gilt	orange	#E3C84C 0
+gingerbread	brown	#CA994E 0
+gingerbread	orange	#ECA02A 0
+ginger	brown	#9C8260 0
+ginger	orange	#CA884E 0
+ginger	red	#C47444 0
+glacier	blue	#8197AA 0
+glacier	white	#E9F9F5 0
+gold	orange	#FFD700 0
+gold	yellow	#FFD700 0
+gore	red	#940008 5
+granite	gray	#B4B4AD 0
+granite	grey	#B4B4AD 0
+granola	brown	#A68F59 0
+granola	orange	#F5CE9F 0
+grape	green	#D4D678 0
+grape	purple	#8481AE 0
+Grape	red	#7B3B44 0
+graphite	gray	#5E5F5D 0
+graphite	grey	#5E5F5D 0
+grass	green	#A09238 0
+gravy	brown	#86644F 0
+grill	red	#CD5B45 0
+grime	brown	#483C32 4
+grizzly	brown	#604C3D 3
+guava	yellow	#F5C71A 0
+gunmetal	black	#04030B 3
+gunmetal	blue	#26363B 3
+gunmetal	gray	#2A3439 3
+gunmetal	grey	#2A3439 3
+gunpowder	black	#3B3B3B 2
+ham	pink	#FB607F 0
+hash	brown	#E1CAAD 0
+hazel	brown	#966841 0
+hazelnut	brown	#AE9F80 0
+heart	red	#A52A2A 4
+heather	blue	#B2A4D7 0
+hemlock	red	#AA381E 0
+hemlock	yellow	#BABB84 0
+hemp	brown	#BAA566 0
+henna	red	#6E3330 0
+heron	blue	#5D6B86 0
+holly	green	#21422D 0
+honey	brown	#B39355 0
+honey	orange	#E49924 0
+honey	yellow	#FFDB8C 0
+house	red	#722F37 0
+hummingbird	blue	#1560BD 0
+hunter	orange	#E87600 2
+hyacinth	blue	#8293C5 0
+hyacinth	red	#CF1020 0
+hyperlink	blue	#2A52BE 0
+ice	white	#FEFEFE 1
+indigo	blue	#4B0082 0
+ink	blue	#00608B 0
+iPod	white	#FCFCFC 0
+iris	blue	#8F00FF 0
+iron	gray	#434B4D 1
+iron	grey	#434B4D 1
+ivory	pink	#F1D9CF 1
+ivory	white	#FFFFF0 1
+ivy	green	#58714A 1
+jade	green	#55C0A9 1
+jasper	green	#243225 0
+jaundice	yellow	#FFBF00 3
+jet	black	#010101 2
+jungle	green	#29AB87 1
+kangaroo	grey	#8B8589 0
+ketchup	red	#BC6B5D 0
+khaki	brown	#C3B091 0
+kingfisher	blue	#0081AD 0
+kiwi	green	#9ACD32 0
+kohl	black	#212121 0
+lacquer	black	#1E1E1E 0
+ladybug	red	#B13F44 0
+lager	orange	#B87333 0
+lagoon	blue	#1E98AE 1
+lamb	white	#F8F7F4 0
+lapis	blue	#004C94 0
+laser	red	#C70E20 2
+lava	orange	#FF5800 3
+lava	yellow	#FFBF00 3
+lavender	pink	#FBAED2 0
+lavender	purple	#9678B6 0
+lawn	green	#7CFC00 0
+leaf	green	#008000 0
+leather	brown	#8F5C3D 0
+leather	red	#B27046 0
+leek	green	#76AA83 0
+lemonade	yellow	#EDE777 0
+lemon	yellow	#F5C71A 0
+lettuce	green	#C8E17B 0
+lichen	green	#99A285 1
+licorice	black	#1A1110 0
+lilac	blue	#9955BB 0
+lilac	pink	#D891EF 0
+lilac	white	#EFEAEB 0
+lily	white	#ECE6C8 0
+lime	green	#BFFF00 0
+limestone	yellow	#E3E0CE 0
+linen	white	#FFFFFF 0
+lingerie	black	#000000 1
+lingerie	pink	#F4C2C2 1
+lion	orange	#C19A6B 0
+lipgloss	red	#FF0038 0
+lipstick	pink	#F19CBB 0
+lipstick	red	#B31B1B 0
+litchi	white	#FFFAF0 0
+liver	brown	#674C47 3
+lizard	green	#4FA93F 3
+lobster	red	#CC2C18 2
+lollipop	red	#FF0800 0
+lotus	pink	#F64A8A 0
+lust	red	#E62020 1
+magenta	pink	#FF00FF 0
+magenta	red	#FF00FF 0
+mahogany	brown	#C04000 0
+maize	yellow	#FBEC5D 1
+mandarin	orange	#E9692C 0
+mandrake	red	#CC7722 0
+mango	orange	#FFBF00 0
+mango	yellow	#FFBF00 0
+manila	brown	#FFDFA0 0
+manure	brown	#6B4423 0
+maple	brown	#CB410B 0
+maple	orange	#CB410B 0
+maple	yellow	#FFB963 0
+marble	white	#F5F5F5 0
+margarine	yellow	#FFFDD0 0
+marigold	orange	#FF7E00 0
+marigold	yellow	#FFBF00 0
+marinara	red	#E03C31 1
+marmalade	orange	#F27F00 0
+maroon	red	#800000 0
+marshmallow	white	#EDEBE7 0
+marzipan	yellow	#EBC881 0
+mascara	black	#292524 3
+mauve	pink	#E0B0FF 0
+mayonnaise	white	#FAF6E6 0
+mayo	white	#FAF6E6 0
+meadow	green	#73A55B 0
+melba	orange	#FFBF00 0
+melon	orange	#FF7E00 0
+melon	red	#E52B50 0
+melon	yellow	#FFBA00 0
+meringue	white	#FDFAF0 0
+merlot	red	#651F1B 0
+microwave	white	#FCFCFC 0
+midnight	black	#010208 5
+milkshake	white	#FEFCF7 0
+milk	white	#FEFCF7 0
+mincemeat	red	#E34234 4
+mince	red	#E34234 4
+mint	green	#3EB489 0
+mist	gray	#E6F1EC 5
+mocha	brown	#7F5F51 0
+molasses	black	#574A47 1
+moonlight	white	#F8F8FF 4
+moonstone	blue	#73A9C2 2
+moon	white	#F5F5F5 3
+moss	green	#4A5D23 2
+mourning	black	#1A1110 4
+mouse	brown	#A89B88 0
+mouse	grey	#7F8072 0
+mud	brown	#927F66 1
+mud	grey	#8B8589 1
+mulberry	purple	#C54B8C 0
+mummy	brown	#6F4E37 5
+mushroom	brown	#AC9379 1
+muslin	brown	#E8E1C9 0
+mustard	brown	#CFA33B 0
+mustard	orange	#EAB41E 0
+mustard	yellow	#FFDB58 0
+myrtle	green	#21421E 1
+nappy	brown	#BFA070 0
+navy	blue	#000080 0
+negative	black	#1A1110 3
+neoprene	black	#1A1D1D 0
+neoprene	blue	#0070FF 0
+nicotine	yellow	#9E6B33 0
+night	black	#010208 5
+nightgown	pink	#F9DCE1 1
+nightingale	brown	#CC7722 0
+nipple	pink	#FA8072 1
+noir	black	#010101 3
+nut	brown	#EDCCB3 0
+nutty	brown	#EDCCB3 0
+nutmeg	brown	#7E4A3B 0
+oatmeal	gray	#E8E3D6 0
+oatmeal	grey	#E8E3D6 0
+obsidian	black	#132019 3
+ocean	blue	#2C5779 1
+ocher	brown	#B99E78 0
+ochre	orange	#CC7722 0
+ochre	yellow	#FFD700 0
+oil	black	#383838 1
+okra	green	#6B8E23 0
+olive	green	#808000 0
+onyx	black	#353839 2
+opal	blue	#4997D0 0
+opal	white	#ECECED 0
+orchid	black	#423B49 1
+orchid	blue	#273BE2 1
+orchid	purple	#DA70D6 1
+orchid	white	#FFFAF0 1
+oven	brown	#9D472C 0
+oxblood	red	#582B2F 3
+palomino	white	#FCF1D2 0
+pancake	brown	#907551 0
+pansy	blue	#4A568E 0
+pansy	purple	#440058 0
+paper	white	#FBFBF8 0
+paprika	red	#D43800 0
+parchment	white	#F2E1C1 2
+parchment	yellow	#E2BE79 2
+park	green	#228B22 0
+parmesan	yellow	#F6E7B8 0
+parrot	green	#6CA939 0
+parsley	green	#7DB143 0
+pate	brown	#DAC1A9 0
+pate	pink	#A95C68 0
+peach	orange	#FFCBA4 0
+peach	pink	#FFDAB9 0
+peacock	blue	#1D618C 0
+pear	brown	#C6AB55 0
+pear	green	#E1E36E 0
+pearl	white	#F7FBEF 0
+pearly	white	#F7FBEF 0
+pearly	pink	#F0D6D7 0
+peat	brown	#5C4D39 0
+pecan	brown	#91694A 0
+pee	yellow	#F8DD5C 1 
+pepper	gray	#777474 0
+pepper	green	#44743D 0
+peppermint	green	#01993D 0
+pepper	red	#D10000 0
+periwinkle	blue	#CCCCFF 0
+persian	blue	#1C39BB 0
+persimmon	orange	#D76D39 0
+pewter	gray	#606865 0
+pewter	grey	#606865 0
+piano	black	#020101 1
+pigeon	gray	#4A5050 0
+pillow	white	#FFFFFF 1
+pineapple	orange	#F3D64F 0
+pine	green	#01796F 0
+piss	green	#CFB53B 1
+piss	yellow	#F8DD5C 1
+pistachio	green	#93C572 0
+pitch	black	#2A2829 2
+plaque	brown	#663300 1
+plum	red	#8E4585 0
+polarbear	white	#EFF3E0 1
+polenta	yellow	#FECC49 0
+pomegranate	red	#A61A1D 0
+poo	brown	#BFA070 0
+poop	brown	#BFA070 0
+poppy	red	#FF2400 0
+porcelain	blue	#1E528C 0
+porcelain	white	#ECEBE6 0
+pork	pink	#FB607F 1
+porridge	gray	#E8E3D6 0
+porridge	grey	#E8E3D6 0
+port	red	#441A1A 0
+potato	brown	#B79268 0
+prawn	pink	#F9CCCA 0
+prawn	red	#E34234 0
+primrose	yellow	#F4CF5B 0
+prussian	blue	#003153 0
+puce	purple	#A95C68 0
+puce	red	#722F37 0
+puke	orange	#E49B0F 2
+puke	yellow	#F4C430 3
+pumpernickel	brown	#655240 0
+pumpkin	orange	#FF7518 5
+purpurea	purple	#FF00FF 0
+putty	gray	#C0BBAB 1
+putty	grey	#C0BBAB 1
+Radish	red	#BB1F44 0
+raisin	brown	#64403F 0
+rash	red	#FF355E 2
+raspberry	red	#E30B5C 0
+raven	black	#252629 5
+redwood	brown	#A45A52 0
+reed	green	#87A96B 1
+refrigerator	white	#FCFCFC 0
+rhubarb	purple	#872657 0
+rhubarb	red	#BF4F4F 0
+ribbon	red	#E30022 0
+rice	brown	#CFB384 0
+rice	white	#FEFEFB 0
+robin	red	#ED872D 0
+rocket	red	#BA3B3D 0
+rootbeer	red	#842E0B 0
+rose	pink	#F19CBB 1
+rosé	pink	#FB607F 0
+rosy	red	#FF033E 0
+rose	red	#FF033E 1
+rouge	red	#C60800 0
+royal	purple	#4169E1 1
+ruby	red	#E0115F 1
+rum	brown	#D2691E 0
+russet	brown	#80461B 0
+russet	orange	#9F5721 0
+russet	red	#6C2A24 0
+rust	brown	#B7410E 2
+rust	orange	#B7410E 2
+rust	red	#B7410E 2
+rusty	brown	#B7410E 2
+rusty	orange	#B7410E 2
+rusty	red	#B7410E 2
+rusted	brown	#B7410E 2
+rusted	orange	#B7410E 2
+rusted	red	#B7410E 2
+sable	brown	#3E3526 0
+sackcloth	black	#332C22 2
+saddle	brown	#563424 0
+saffron	orange	#FF9933 0
+saffron	yellow	#F4C430 0
+sage	brown	#9C8F60 0
+sage	green	#9FC3A9 0
+salad	green	#4BA351 0
+saliva	white	#FCFCFC 3
+salmon	pink	#FF91A4 0
+salmon	red	#FA8072 0
+salt	white	#FFFFFF 0
+sand	brown	#EDC9AF 0
+sandy	brown	#EDC9AF 0
+sandstone	yellow	#E1A95F 0
+sand	yellow	#C2B280 0
+sandy	yellow	#C2B280 0
+sap	green	#507D2A 0
+sapphire	blue	#0F52BA 0
+sardine	gray	#4682B4 0
+sardine	grey	#4682B4 0
+satin	white	#FBFCFD 1
+scarlet	red	#FF2400 1
+scenery	green	#228B22 0
+schoolbus	yellow	#FFC40C 1
+seafoam	green	#71EEB8 0
+seashell	white	#FFF5EE 0
+seaweed	green	#5D7759 2
+semen	white	#F7F5EC 0
+shadow	black	#2F3233 4
+shadow	gray	#6E6F6D 4
+shamrock	green	#009E60 0
+sheet	white	#FFFFFF 0
+sherbet	orange	#FFBF00 0
+shit	brown	#B87333 0
+shoe	brown	#6B4423 0
+shrimp	pink	#E4A4A6 0
+sienna	brown	#882D17 0
+silk	white	#FFF8DC 0
+silt	brown	#816E2A 0
+silver	gray	#C0C0C0 0
+silver	grey	#C0C0C0 0
+skeleton	white	#FFFFF0 5
+sky	blue	#87CEEB 0
+slate	black	#19191C 0
+slate	gray	#708090 0   
+slate	grey	#708090 0
+slime	green	#32CD32 4
+sloe	black	#302E45 0
+sludge	brown	#635147 4
+smog	gray	#91A3B0 2
+smog	grey	#91A3B0 2
+smoke	black	#3D2B1F 2
+smoke	brown	#3D2B1F 2
+smoke	gray	#708C98 2
+smoke	grey	#708C98 2
+snot	green	#CFDBC5 2
+snowflake	white	#EFF0F0 0
+snow	white	#FFFAFA 1
+soap	white	#F4F2E7 0
+soil	brown	#6D584A 2
+soot	black	#383D42 1
+soot	gray	#5D5C5E 1
+soybean	green	#78AB46 0
+soylent	green	#8BA870 3
+spaghetti	yellow	#FDE474 0
+spam	pink	#F19CBB 0
+spectre	gray	#343E54 5
+spectre	grey	#343E54 5
+spider	black	#37363C 5
+spinach	green	#57A75B 0
+sponge	yellow	#FFFF66 0
+spruce	green	#66BB66 0
+spruce	yellow	#C8D62D 0
+squirrel	gray	#78858B 0
+starch	white	#FFFFFF 0
+star	white	#FAFDEC 0
+steak	brown	#AE704F 1
+steel	blue	#4682B4 2
+steel	grey	#686F82 2
+stone	gray	#888C8D 2
+stone	grey	#888C8D 2
+storm	gray	#858F87 2
+strawberry	red	#D53032 0 
+straw	yellow	#E4D96F 0
+submarine	gray	#B6BDC4 0
+submarine	grey	#B6BDC4 0
+sugar	brown	#B98E63 0
+sugar	white	#FEFEFE 0
+sulfur	yellow	#EDFF21 2
+sulphur	yellow	#EDFF21 2
+summer	green	#8EBD99 0
+sunburn	red	#ED8F65 1
+sunburnt	red	#ED8F65 1
+sunburst	yellow	#FFFD7F 1
+sunflower	yellow	#FFC347 0
+sun	orange	#FFB310 1
+sunset	orange	#FD5E53 2
+sunset	red	#FD5E53 2
+sunset	yellow	#FAD6A5 2
+sunshine	yellow	#FFCC33 0
+sun	yellow	#FFCC33 1
+swan	white	#F4F4E2 0
+sweatsock	white	#F7F5E9 0
+taffy	brown	#F1B059 0
+taffy	yellow	#F1B059 0
+tandoori	red	#E53134 0
+tangerine	orange	#F28500 0
+tan	orange	#D2B48C 0
+tar	black	#383838 1
+taupe	brown	#483C32 0
+taupe	grey	#8B8589 0
+taxicab	yellow	#F2E51D 1
+taxi	yellow	#F2E51D 0
+tea	brown	#80461B 0
+teak	black	#4E361F 0
+teal	green	#008080 0
+teeth	white	#EEE6D8 3
+terracotta	red	#E2725B 0
+tiger	orange	#CB7119 2
+tikka	red	#FF4500 0
+titanium	gray	#6A696F 1
+toast	brown	#B58C37 0
+tobacco	brown	#685642 0
+toffee	brown	#8E593C 0
+tofu	white	#F5F5DC 0
+toilet	white	#FAF7F2 0
+tomatillo	red	#FF5349 0
+tomato	red	#FF6347 0
+toothpaste	white	#F5FFFA 0
+topaz	blue	#0198E1 0
+topaz	green	#8CBAA0 0
+topaz	yellow	#FFC87C 0
+torch	red	#FC1420 2
+tree	green	#228B22 0
+trout	brown	#B29D89 0
+turd	brown	#BB8318 0
+turf	brown	#7F5217 0
+turkey	red	#A91101 0
+turmeric	orange	#E9A447 0
+turmeric	yellow	#CABB48 0
+turnip	yellow	#FFFF7E 0
+turquoise	blue	#00FFEF 0
+turquoise	green	#40E0D0 0
+tweed	brown	#937755 0
+tweed	orange	#C4A04C 0
+ultramarine	blue	#120A8F 0
+ultraviolent	blue	#7F1AE5 0
+umber	brown	#635147 0
+undertaker	black	#161616 3
+urine	yellow	#F8DD5C 2
+vanilla	white	#F3E5AB 0
+velvet	blue	#3F376D 1
+verdigris	green	#43B3AE 0
+vermilion	red	#E34234 0
+vermillion	red	#E34234 0
+violent	blue	#8F00FF 4
+violent	purple	#8F00FF 3
+vixen	red	#CC6483 0
+vomit	green	#A2A415 3
+waffle	yellow	#FAD89F 0
+walnut	brown	#5D432C 0
+wasabi	green	#849137 0
+watermelon	green	#659D32 0
+watermelon	red	#F05B78 0
+wax	white	#F7E3BC 0
+whale	blue	#1E3442 0
+wheatgrass	green	#CFCC8F 0
+whiskey	brown	#D59A6F 0
+wholemeal	brown	#F5CE95 0
+widow	black	#1A1110 3
+willow	green	#A2C771 0
+wine	red	#722F37 2
+winter	grey	#D1CED7 2
+wisteria	blue	#C9A0DC 0
+wood	brown	#663300 0
+wool	white	#FFFDE8 0
+yogurt	white	#F1ECD6 0
+yolk	yellow	#FFE54D 0
+zinc	white	#E1DBD0 0
+zucchini	green	#516138 0
+zombie  brown   #6A7049 5
+vampire red     #470708 5
+vampire black   #151313 5
+werewolf    brown   #8E7204 5
+cape    red     #960D14 3
+flesh   pink    #F2B4AE 5
+flesh   red     #F69385 5
+fang    brown   #CDB08C 5
+guts    red     #961919 5
+scientist   white   #F0F0F1 2
+mad     red     #FC0856 3
+crazy   pink    #DB1D70 3
+cannibal    red #F03355 4
+killer  red     #FF050D 5
+swamp   green   #495F1C 2
+monster green   #1A5F13 5
+contract white  #DEE0E0 0
+failed  grey    #88A698 0
+experiment  green   #31F562 2
+bite    white   #FFFFFF 4
+fur brown       #827362 3
+dead    black   #0C060F 5
+fetus   red     #C37373 5
+gangrene green  #7D8642 5
+affliction  brown   #CABA45 5

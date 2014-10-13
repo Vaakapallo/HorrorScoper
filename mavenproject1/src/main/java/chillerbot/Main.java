@@ -72,7 +72,14 @@ public class Main {
         
         List<String> newLinks = tweet.getNewLinks(loader.getColorsToLinks());
         
-        loader.addNewLinksToFile("links.txt", newLinks);
+        for (StereotypeColor color : mapper.getColorsToPairs().keySet()) {
+            if(color.getSpookiness() > 5){
+                System.out.println(color);
+            }
+        }
+        
+        //loader.addNewLinksToFile("links.txt", newLinks);
+      
         
         //tweet.tweet(convert.nameAndLinkForColor(Randomizer.randomColor()).toString());
         

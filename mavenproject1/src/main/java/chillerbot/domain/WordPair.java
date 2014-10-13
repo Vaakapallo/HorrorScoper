@@ -12,10 +12,17 @@ package chillerbot.domain;
 public class WordPair {
     private String first;
     private String second;
+    private int spookiness;
 
     public WordPair(String first, String second) {
         this.first = first;
         this.second = second;
+    }
+
+    public WordPair(String first, String second, int spookiness) {
+        this.first = first;
+        this.second = second;
+        this.spookiness = spookiness;
     }
 
     @Override
@@ -29,5 +36,13 @@ public class WordPair {
 
     public String getSecond() {
         return second;
+    }
+
+    public int getSpookiness() {
+        return spookiness;
+    }
+    
+    public String printWithSpookiness(){
+        return first + " " + second + ": " + spookiness;
     }
 }

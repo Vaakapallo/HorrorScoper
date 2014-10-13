@@ -31,3 +31,5 @@ zombie skin
 fetus skin
 dead fetus
 gangrene affliction
+bone ash
+rotten baby

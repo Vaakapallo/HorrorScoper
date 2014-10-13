@@ -15,17 +15,21 @@ public class StereotypeColor {
     private String stereotype;
     private String colorName;
     private Color color;
+    private int spookiness;
 
-    public StereotypeColor(String stereotype, String colorName, int hex) {
+    public StereotypeColor(String stereotype, String colorName, Color color, int spookiness) {
         this.stereotype = stereotype;
         this.colorName = colorName;
-        this.color = new Color(hex);
+        this.color = color;
+        this.spookiness = spookiness;
+    }
+
+    public StereotypeColor(String stereotype, String colorName, int hex, int spookiness) {
+        this(stereotype,colorName,new Color(hex), spookiness);
     }
     
-    public StereotypeColor(String stereotype, String colorName, int red,int green,int blue){
-        this.stereotype = stereotype;
-        this.colorName = colorName;
-        this.color = new Color(red,green,blue); 
+    public StereotypeColor(String stereotype, String colorName, int red,int green,int blue, int spookiness){
+        this(stereotype,colorName,new Color(red,green,blue), spookiness);
     }
 
     public String getStereotype() {
@@ -39,6 +43,10 @@ public class StereotypeColor {
     public Color getColor() {
         return color;
     }
+
+    public int getSpookiness() {
+        return spookiness;
+    }
     
     public String stereotypeName(){
         return stereotype + " " + colorName;
@@ -46,6 +54,6 @@ public class StereotypeColor {
 
     @Override
     public String toString() {
-        return Integer.toHexString(color.getRGB()) + ": " + stereotype + " " + colorName;
+        return Integer.toHexString(color.getRGB()) + ": " + stereotype + " " + colorName + "Spook-O-Meter: " + spookiness;
     }
 }

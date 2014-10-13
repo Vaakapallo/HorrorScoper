@@ -35,7 +35,8 @@ public class DataLoader {
             String stereotype = fileReader.next();
             String name = fileReader.next();
             int hex = Integer.parseInt(fileReader.next().substring(1), 16);
-            colors.put(new StereotypeColor(stereotype, name, hex),hex);
+            int spookiness = Integer.parseInt(fileReader.next());
+            colors.put(new StereotypeColor(stereotype, name, hex, spookiness),hex);
         }
     }
 

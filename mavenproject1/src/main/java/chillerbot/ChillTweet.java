@@ -75,7 +75,7 @@ public class ChillTweet {
     }
 
     private String randomScaryThing() {
-        String[] scaryCreatures = {"werewolf", "vampire", "zombie", "murderer", "killer", "swamp monster"};
+        String[] scaryCreatures = {"werewolf", "vampire", "zombie", "murderer", "killer", "swamp monster", "ghost"};
 
         String string = "And there's a ";
 
