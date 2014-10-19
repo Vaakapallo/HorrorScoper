@@ -68,7 +68,7 @@ public class TweetCandidate {
     
     @Override
     public String toString() {
-        return link + " " + name + ". ";
+        return name + ". ";
     }
     
 }

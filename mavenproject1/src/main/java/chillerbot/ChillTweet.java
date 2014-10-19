@@ -36,25 +36,27 @@ public class ChillTweet {
     public ChillTweet() {
         setUpTwitter();
     }
-    
-    public void tweet(TweetCandidate candidate) throws TwitterException, IOException {
-        if(evaluateTweet(candidate)){
-            tweetAndShowTimeline(candidate.toString());
+
+    public boolean tweet(TweetCandidate candidate) throws TwitterException, IOException {
+        if (evaluateTweet(candidate)) {
+            tweetAndShowTimeline(candidate);
+            return true;
         }
+        return false;
     }
-    
-    public List<String> getNewLinks(HashMap<Color, String> colorsToLinks) throws TwitterException{
+
+    public List<String> getNewLinks(HashMap<Color, String> colorsToLinks) throws TwitterException {
         ArrayList<String> links = new ArrayList();
-        for (Status each : getStatusesFromUser("@everycolorbot")){
-            String[] statusText = (each.getText().replace("0x","#").split(" "));
-            if(!colorsToLinks.values().contains(statusText[1])){
+        for (Status each : getStatusesFromUser("@everycolorbot")) {
+            String[] statusText = (each.getText().replace("0x", "#").split(" "));
+            if (!colorsToLinks.values().contains(statusText[1])) {
                 links.add(statusText[0] + " " + statusText[1]);
             }
         }
         return links;
     }
-    
-    public ResponseList<Status> getStatusesFromUser(String username) throws TwitterException{
+
+    public ResponseList<Status> getStatusesFromUser(String username) throws TwitterException {
         return twitter.getUserTimeline(username);
     }
 
@@ -79,20 +81,21 @@ public class ChillTweet {
 
     private String randomScaryThing() {
         String[] scaryCreatures = {"werewolf", "vampire", "zombie", "murderer", "killer", "swamp monster", "ghost"};
+        String[] scaryPrepositions = {"behind", "under", "beside", "within", "among", "staring at", "about to eat", "stalking", "about to murder"};
 
         String string = "And there's a ";
 
         Random random = new Random();
 
-        string += scaryCreatures[random.nextInt(scaryCreatures.length)];
+        string += scaryCreatures[random.nextInt(scaryCreatures.length)] + " ";
 
-        string += " behind you!";
+        string += scaryPrepositions[random.nextInt(scaryPrepositions.length)] + " you!";
 
         return string;
     }
 
-    private void tweetAndShowTimeline(String tweet) throws TwitterException {
-        twitter.updateStatus(tweet + randomScaryThing());
+    private void tweetAndShowTimeline(TweetCandidate candidate) throws TwitterException {
+        twitter.updateStatus("This " + spookinator(candidate.getSpookiness()) + " color is called " + candidate.toString() + randomScaryThing() + candidate.getLink());
 
         System.out.println("\nMy Timeline:");
 
@@ -121,7 +124,7 @@ public class ChillTweet {
     }
 
     private boolean evaluateTweet(TweetCandidate candidate) {
-        if(candidate.getSpookiness() > 3 && candidate.getDistance() < 75){
+        if (candidate.getSpookiness() > 3 && candidate.getDistance() < 75) {
             return true;
         } else {
             System.out.println("Bad color, not tweeting!");
@@ -129,4 +132,11 @@ public class ChillTweet {
         }
     }
 
+    private String spookinator(int spookiness) {
+        String spoo = "sp";
+        for (int i = 0; i < spookiness - 2; i++) {
+            spoo += "o";
+        }
+        return spoo + "ky";
+    }
 }

@@ -28,19 +28,9 @@ public class Main {
     /**
      * @param args the command line arguments
      */
+    @SuppressWarnings("empty-statement")
     public static void main(String[] args) throws TwitterException, IOException {
         ColorBlender blender = new ColorBlender();
-        System.out.println("Difference between gray and red:" + blender.distanceAsText(Color.gray, Color.red));
-        System.out.println("Difference between blue and red:" + blender.distanceAsText(Color.blue, Color.red));
-        System.out.println("Difference between blue and gray:" + blender.distanceAsText(Color.blue, Color.gray));
-        System.out.println("Difference between gray and gray:" + blender.distanceAsText(Color.gray, Color.gray));
-
-        System.out.println("Blend of " + Color.red + " and " + Color.blue + ":\n " + blender.calculateMiddle(Color.red, Color.blue));
-        System.out.println("Blend of " + Color.gray + " and " + Color.blue + ":\n " + blender.calculateMiddle(Color.gray, Color.blue));
-
-        System.out.println("Percentage distance of " + Color.gray + " and " + Color.blue + ":\n " + blender.percentageSimilarity(Color.gray, Color.blue));
-        System.out.println("Percentage distance of " + Color.black + " and " + Color.white + ":\n " + blender.percentageSimilarity(Color.black, Color.white));
-
         DataLoader loader = new DataLoader();
 
         loader.loadColors("colormap.txt");
@@ -64,7 +54,7 @@ public class Main {
         
         for (int i = 0; i < 100; i++) {
             Color color = Randomizer.randomColor();
-            System.out.println(convert.nameAndLinkForColor(color).getDistance());             
+        //    System.out.println(convert.nameAndLinkForColor(color).getDistance());             
         }
         
         ChillTweet tweet = new ChillTweet();
@@ -79,7 +69,7 @@ public class Main {
 //     loader.addNewLinksToFile("links.txt", tweet.getNewLinks(loader.getColorsToLinks()));
       
         
-        tweet.tweet(convert.nameAndLinkForColor(Randomizer.randomColor()));
+        while(!tweet.tweet(convert.nameAndLinkForColor(Randomizer.randomColor())));
         
         //new ChillTweet().start();
     }
