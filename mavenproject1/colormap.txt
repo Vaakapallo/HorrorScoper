@@ -467,7 +467,7 @@ midnight	black	#010208 5
 milkshake	white	#FEFCF7 0
 milk	white	#FEFCF7 0
 mincemeat	red	#E34234 4
-mince	red	#E34234 4
+minced	red	#E34234 4
 mint	green	#3EB489 0
 mist	gray	#E6F1EC 5
 mocha	brown	#7F5F51 0
