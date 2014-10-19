@@ -12,13 +12,15 @@ import java.awt.Color;
  *
  * @author Lassi
  */
-public class NameLinkPair {
+public class TweetCandidate {
     
     private String name;
     private String link;
     private Color color;
+    private int spookiness;
+    private int distance;
 
-    public NameLinkPair(String name, String link, Color color) {
+    public TweetCandidate(String name, String link, Color color) {
         this.name = name;
         this.link = link;
         this.color = color;
@@ -48,6 +50,22 @@ public class NameLinkPair {
         this.color = color;
     }
 
+    public int getSpookiness() {
+        return spookiness;
+    }
+
+    public void setSpookiness(int spookiness) {
+        this.spookiness = spookiness;
+    }
+
+    public int getDistance() {
+        return distance;
+    }
+
+    public void setDistance(int distance) {
+        this.distance = distance;
+    }
+    
     @Override
     public String toString() {
         return link + " " + name + ". ";

@@ -5,6 +5,7 @@
  */
 package chillerbot;
 
+import chillerbot.domain.TweetCandidate;
 import java.awt.Color;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -36,8 +37,10 @@ public class ChillTweet {
         setUpTwitter();
     }
     
-    public void tweet(String tweet) throws TwitterException, IOException {
-        tweetAndShowTimeline(tweet);
+    public void tweet(TweetCandidate candidate) throws TwitterException, IOException {
+        if(evaluateTweet(candidate)){
+            tweetAndShowTimeline(candidate.toString());
+        }
     }
     
     public List<String> getNewLinks(HashMap<Color, String> colorsToLinks) throws TwitterException{
@@ -114,6 +117,15 @@ public class ChillTweet {
 
         } else {
             System.out.println("Authentication failed, check keys.");
+        }
+    }
+
+    private boolean evaluateTweet(TweetCandidate candidate) {
+        if(candidate.getSpookiness() > 3 && candidate.getDistance() < 75){
+            return true;
+        } else {
+            System.out.println("Bad color, not tweeting!");
+            return false;
         }
     }
 

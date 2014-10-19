@@ -64,24 +64,22 @@ public class Main {
         
         for (int i = 0; i < 100; i++) {
             Color color = Randomizer.randomColor();
-            System.out.println(color);
-            System.out.println(convert.nameAndLinkForColor(color));             
+            System.out.println(convert.nameAndLinkForColor(color).getDistance());             
         }
         
         ChillTweet tweet = new ChillTweet();
         
-        List<String> newLinks = tweet.getNewLinks(loader.getColorsToLinks());
         
-        for (StereotypeColor color : mapper.getColorsToPairs().keySet()) {
-            if(color.getSpookiness() > 5){
-                System.out.println(color);
-            }
-        }
+//        for (StereotypeColor color : mapper.getColorsToPairs().keySet()) {
+//            if(color.getSpookiness() > 5){
+//                System.out.println(color);
+//            }
+//        }
         
-        //loader.addNewLinksToFile("links.txt", newLinks);
+//     loader.addNewLinksToFile("links.txt", tweet.getNewLinks(loader.getColorsToLinks()));
       
         
-        //tweet.tweet(convert.nameAndLinkForColor(Randomizer.randomColor()).toString());
+        tweet.tweet(convert.nameAndLinkForColor(Randomizer.randomColor()));
         
         //new ChillTweet().start();
     }

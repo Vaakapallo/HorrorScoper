@@ -6,7 +6,7 @@
 
 package chillerbot.colorblender;
 
-import chillerbot.domain.NameLinkPair;
+import chillerbot.domain.TweetCandidate;
 import chillerbot.domain.StereotypeColor;
 import chillerbot.domain.WordPair;
 import java.awt.Color;
@@ -27,16 +27,18 @@ public class ColorToWord {
         this.colorsToLinks = colorsToLinks;
     }
     
-    public NameLinkPair nameAndLinkForColor(Color color){
-        NameLinkPair pair = new NameLinkPair(null, null, color);
+    public TweetCandidate nameAndLinkForColor(Color color){
+        TweetCandidate pair = new TweetCandidate(null, null, color);
         int minimumdistance = blender.absoluteRGBDistance(color, colorsToPairs.keySet().iterator().next().getColor());
         for (StereotypeColor stColor : colorsToPairs.keySet()) {
-            int distance = blender.absoluteRGBDistance(stColor.getColor(), color);
+            int distance = blender.absoluteRGBDistance(stColor.getColor(), color) - stColor.getSpookiness() * 2;
             if(distance < minimumdistance){
                 minimumdistance = distance;
                 pair.setColor(stColor.getColor());
                 pair.setName(colorsToPairs.get(stColor).toString());
                 pair.setLink(findClosestLink(stColor.getColor()));
+                pair.setSpookiness(stColor.getSpookiness());
+                pair.setDistance(distance);
             }
         }
         return pair;
