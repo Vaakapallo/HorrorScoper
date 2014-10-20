@@ -5,6 +5,7 @@
  */
 package chillerbot;
 
+import chillerbot.colorblender.ColorToWord;
 import chillerbot.domain.TweetCandidate;
 import java.awt.Color;
 import java.io.File;
@@ -32,14 +33,16 @@ public class ChillTweet {
     private String ACCESS_TOKEN;
     private String ACCESS_TOKEN_SECRET;
     private Twitter twitter;
+    private ColorToWord convert;
 
-    public ChillTweet() {
+    public ChillTweet(ColorToWord convert) {
         setUpTwitter();
+        this.convert = convert;
     }
 
     public boolean tweet(TweetCandidate candidate) throws TwitterException, IOException {
         if (evaluateTweet(candidate)) {
-            tweetAndShowTimeline(candidate);
+            tweetPassedCandidate(candidate);
             return true;
         }
         return false;
@@ -54,6 +57,17 @@ public class ChillTweet {
             }
         }
         return links;
+    }
+    
+    public void retweetEveryColorBot() throws TwitterException {
+        for (Status each : getStatusesFromUser("@everycolorbot")) {
+            String[] statusText = (each.getText().replace("0x", "#").split(" "));
+            TweetCandidate candidate = convert.nameAndLinkForColor(new Color(Integer.parseInt(statusText[0].substring(1), 16)));
+            if(evaluateTweet(candidate)){
+                System.out.println("tweeting" + candidate.toString());
+                tweetPassedCandidate(candidate);
+            }
+        }
     }
 
     public ResponseList<Status> getStatusesFromUser(String username) throws TwitterException {
@@ -94,18 +108,8 @@ public class ChillTweet {
         return string;
     }
 
-    private void tweetAndShowTimeline(TweetCandidate candidate) throws TwitterException {
+    private void tweetPassedCandidate(TweetCandidate candidate) throws TwitterException {
         twitter.updateStatus("This " + spookinator(candidate.getSpookiness()) + " color is called " + candidate.toString() + randomScaryThing() + candidate.getLink());
-
-        System.out.println("\nMy Timeline:");
-
-        // I'm reading your timeline
-        for (Status each : twitter.getHomeTimeline()) {
-
-            System.out.println("Sent by: @" + each.getUser().getScreenName()
-                    + " - " + each.getUser().getName() + "\n" + each.getText()
-                    + "\n");
-        }
     }
 
     private void setUpTwitter() {
@@ -123,7 +127,10 @@ public class ChillTweet {
         }
     }
 
-    private boolean evaluateTweet(TweetCandidate candidate) {
+    private boolean evaluateTweet(TweetCandidate candidate) throws TwitterException {
+        if(inLatestTweets(candidate.getName())){
+            return false;
+        }
         if (candidate.getSpookiness() > 3 && candidate.getDistance() < 75) {
             return true;
         } else {
@@ -138,5 +145,23 @@ public class ChillTweet {
             spoo += "o";
         }
         return spoo + "ky";
+    }
+
+    private boolean inLatestTweets(String name) throws TwitterException {
+        String[] nameParts = name.split(" ");
+        // I'm reading your timeline
+        
+        for (Status each : twitter.getHomeTimeline()) {
+            String text = each.getText();
+            if(!text.contains("called")){
+                return false;
+            }
+            text = text.substring(text.indexOf("called"), text.indexOf("And"));
+            if(text.contains(nameParts[0]) || text.contains(nameParts[1])){
+                System.out.println(name + " found from latest tweets");
+                return true;
+            }
+        }
+        return false;
     }
 }

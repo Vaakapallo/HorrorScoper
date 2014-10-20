@@ -57,19 +57,14 @@ public class Main {
         //    System.out.println(convert.nameAndLinkForColor(color).getDistance());             
         }
         
-        ChillTweet tweet = new ChillTweet();
+        ChillTweet tweet = new ChillTweet(convert);
         
+        tweet.retweetEveryColorBot();
         
-//        for (StereotypeColor color : mapper.getColorsToPairs().keySet()) {
-//            if(color.getSpookiness() > 5){
-//                System.out.println(color);
-//            }
-//        }
-        
-//     loader.addNewLinksToFile("links.txt", tweet.getNewLinks(loader.getColorsToLinks()));
+        //loader.addNewLinksToFile("links.txt", tweet.getNewLinks(loader.getColorsToLinks()));
       
-        
-        while(!tweet.tweet(convert.nameAndLinkForColor(Randomizer.randomColor())));
+        //System.out.println("Name for color: " + convert.nameAndLinkForColor(new Color(10, 166, 153)));
+        //while(!tweet.tweet(convert.nameAndLinkForColor(Randomizer.randomColor())));
         
         //new ChillTweet().start();
     }
