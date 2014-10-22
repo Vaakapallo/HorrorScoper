@@ -59,9 +59,10 @@ public class Main {
         
         ChillTweet tweet = new ChillTweet(convert);
         
+        loader.addNewLinksToFile("links.txt", tweet.getNewLinks(loader.getColorsToLinks()));
+        
         tweet.retweetEveryColorBot();
         
-        //loader.addNewLinksToFile("links.txt", tweet.getNewLinks(loader.getColorsToLinks()));
       
         //System.out.println("Name for color: " + convert.nameAndLinkForColor(new Color(10, 166, 153)));
         //while(!tweet.tweet(convert.nameAndLinkForColor(Randomizer.randomColor())));

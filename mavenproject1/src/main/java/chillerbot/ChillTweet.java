@@ -10,15 +10,12 @@ import chillerbot.domain.TweetCandidate;
 import java.awt.Color;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import twitter4j.ResponseList;
 import twitter4j.Status;
 import twitter4j.Twitter;
@@ -34,8 +31,9 @@ public class ChillTweet {
     private String ACCESS_TOKEN_SECRET;
     private Twitter twitter;
     private ColorToWord convert;
+    private List<Status> homeTimeline;
 
-    public ChillTweet(ColorToWord convert) {
+    public ChillTweet(ColorToWord convert) throws TwitterException {
         setUpTwitter();
         this.convert = convert;
     }
@@ -64,8 +62,9 @@ public class ChillTweet {
             String[] statusText = (each.getText().replace("0x", "#").split(" "));
             TweetCandidate candidate = convert.nameAndLinkForColor(new Color(Integer.parseInt(statusText[0].substring(1), 16)));
             if(evaluateTweet(candidate)){
-                System.out.println("tweeting" + candidate.toString());
-                tweetPassedCandidate(candidate);
+                System.out.println("tweeting " + candidate.toString());
+                reTweetPassedCandidate(candidate, each.getText());
+                return;
             }
         }
     }
@@ -111,8 +110,12 @@ public class ChillTweet {
     private void tweetPassedCandidate(TweetCandidate candidate) throws TwitterException {
         twitter.updateStatus("This " + spookinator(candidate.getSpookiness()) + " color is called " + candidate.toString() + randomScaryThing() + candidate.getLink());
     }
+    
+    private void reTweetPassedCandidate(TweetCandidate candidate, String retweet) throws TwitterException {
+        twitter.updateStatus("RT @everycolorbot: " + retweet + " This " + spookinator(candidate.getSpookiness()) + " color is called " + candidate.toString() + randomScaryThing());
+    }
 
-    private void setUpTwitter() {
+    private void setUpTwitter() throws TwitterException {
         twitter = new TwitterFactory().getInstance();
         if (loadKeys()) {
             twitter.setOAuthConsumer(CONSUMER_KEY, CONSUMER_KEY_SECRET);
@@ -121,7 +124,7 @@ public class ChillTweet {
                     ACCESS_TOKEN_SECRET);
 
             twitter.setOAuthAccessToken(oathAccessToken);
-
+            this.homeTimeline = twitter.getHomeTimeline();
         } else {
             System.out.println("Authentication failed, check keys.");
         }
@@ -147,11 +150,11 @@ public class ChillTweet {
         return spoo + "ky";
     }
 
-    private boolean inLatestTweets(String name) throws TwitterException {
+    private boolean inLatestTweets(String name) {
         String[] nameParts = name.split(" ");
         // I'm reading your timeline
         
-        for (Status each : twitter.getHomeTimeline()) {
+        for (Status each : this.homeTimeline) {
             String text = each.getText();
             if(!text.contains("called")){
                 return false;
